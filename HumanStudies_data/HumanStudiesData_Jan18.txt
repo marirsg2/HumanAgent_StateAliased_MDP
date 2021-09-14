@@ -1,0 +1,820 @@
+From 1689196268138914692@xxx Mon Jan 18 04:11:36 +0000 2021
+X-GM-THRID: 1689196268138914692
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com (ec2-52-205-134-234.compute-1.amazonaws.com. [52.205.134.234])
+        by smtp.gmail.com with ESMTPSA id c136sm10094304qkg.71.2021.01.17.20.11.36
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 20:11:36 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 04:11:36 +0000
+Message-ID: <161094309585.10.1674893316115772090@ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '15'), ('game1_wrong', '1'), ('game1_attempts', '16'), ('game2_correct', '20'), ('game2_wrong', '1'), ('game2_attempts', '21'), ('tid', 'A1WKX933Q1TCZY')])
+
+From 1689191049431870925@xxx Mon Jan 18 02:48:39 +0000 2021
+X-GM-THRID: 1689191049431870925
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com (ec2-3-86-52-158.compute-1.amazonaws.com. [3.86.52.158])
+        by smtp.gmail.com with ESMTPSA id z15sm9831507qkz.103.2021.01.17.18.48.39
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 18:48:39 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 02:48:39 +0000
+Message-ID: <161093811887.8.3809698415177297876@de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '1'), ('game1_attempts', '14'), ('game2_correct', '18'), ('game2_wrong', '0'), ('game2_attempts', '18'), ('tid', 'A21EJE2BG5PLO0')])
+
+From 1689155122731203307@xxx Sun Jan 17 17:17:36 +0000 2021
+X-GM-THRID: 1689155122731203307
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id x134sm9278493qka.1.2021.01.17.09.17.36
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 09:17:37 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 17:17:36 +0000
+Message-ID: <161090385655.10.16197054195401488642@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '25'), ('game1_wrong', '1'), ('game1_attempts', '26'), ('game2_correct', '30'), ('game2_wrong', '5'), ('game2_attempts', '35'), ('tid', 'A9HQ3E0F2AGVO')])
+
+From 1689151090414127046@xxx Sun Jan 17 16:13:31 +0000 2021
+X-GM-THRID: 1689151090414127046
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id 74sm8820601qko.59.2021.01.17.08.13.30
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:13:31 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:13:30 +0000
+Message-ID: <161090001046.8.16162893931369295742@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '15'), ('game1_wrong', '3'), ('game1_attempts', '18'), ('game2_correct', '21'), ('game2_wrong', '1'), ('game2_attempts', '22'), ('tid', 'AIMISGP5O86T4')])
+
+From 1689169716179869584@xxx Sun Jan 17 21:09:34 +0000 2021
+X-GM-THRID: 1689169716179869584
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 0c4affba-6b1c-4075-af3e-7cc83217d650.prvt.dyno.rt.heroku.com (ec2-54-90-178-25.compute-1.amazonaws.com. [54.90.178.25])
+        by smtp.gmail.com with ESMTPSA id z30sm8868561qtc.15.2021.01.17.13.09.33
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 13:09:34 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 21:09:33 +0000
+Message-ID: <161091777360.8.8950102603793199325@0c4affba-6b1c-4075-af3e-7cc83217d650.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '14'), ('game1_wrong', '1'), ('game1_attempts', '15'), ('game2_correct', '24'), ('game2_wrong', '0'), ('game2_attempts', '24'), ('tid', 'A3G8OON0TDPN1E')])
+
+From 1689155484567866261@xxx Sun Jan 17 17:23:22 +0000 2021
+X-GM-THRID: 1689155484567866261
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id s30sm8803572qte.44.2021.01.17.09.23.21
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 09:23:22 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 17:23:21 +0000
+Message-ID: <161090420153.10.16818883695466393328@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '21'), ('game1_wrong', '1'), ('game1_attempts', '22'), ('game2_correct', '32'), ('game2_wrong', '0'), ('game2_attempts', '32'), ('tid', 'A2EMTZRRIGWDE2')])
+
+From 1689244528111583712@xxx Mon Jan 18 16:58:40 +0000 2021
+X-GM-THRID: 1689244528111583712
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com (ec2-18-234-170-160.compute-1.amazonaws.com. [18.234.170.160])
+        by smtp.gmail.com with ESMTPSA id o10sm10467068qtg.37.2021.01.18.08.58.40
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 Jan 2021 08:58:40 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 16:58:40 +0000
+Message-ID: <161098912005.8.13363265083574173161@5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '3'), ('game1_attempts', '16'), ('game2_correct', '21'), ('game2_wrong', '1'), ('game2_attempts', '22'), ('tid', 'AHPOOKYE7V04D')])
+
+From 1689084068929566133@xxx Sat Jan 16 22:28:14 +0000 2021
+X-GM-THRID: 1689084068929566133
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 55772d62-5f54-49e2-8412-e5a2204f7f73.prvt.dyno.rt.heroku.com (ec2-52-91-188-143.compute-1.amazonaws.com. [52.91.188.143])
+        by smtp.gmail.com with ESMTPSA id q3sm7843408qkq.118.2021.01.16.14.28.14
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 16 Jan 2021 14:28:14 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sat, 16 Jan 2021 22:28:14 +0000
+Message-ID: <161083609417.8.14661560098113263771@55772d62-5f54-49e2-8412-e5a2204f7f73.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '23'), ('game1_wrong', '0'), ('game1_attempts', '23'), ('game2_correct', '27'), ('game2_wrong', '0'), ('game2_attempts', '27'), ('tid', 'APKTDTD9LK539')])
+
+From 1689153366607867025@xxx Sun Jan 17 16:49:42 +0000 2021
+X-GM-THRID: 1689153366607867025
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id q50sm324053qtb.32.2021.01.17.08.49.41
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:49:41 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:49:41 +0000
+Message-ID: <161090218151.8.5612176797577396018@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '17'), ('game1_wrong', '4'), ('game1_attempts', '21'), ('game2_correct', '30'), ('game2_wrong', '1'), ('game2_attempts', '31'), ('tid', 'A26NGLGGFTATVN')])
+
+From 1689151979826461360@xxx Sun Jan 17 16:27:39 +0000 2021
+X-GM-THRID: 1689151979826461360
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id c7sm1882050qtc.82.2021.01.17.08.27.39
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:27:39 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:27:39 +0000
+Message-ID: <161090085942.8.6456542616691669979@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '2'), ('game1_attempts', '15'), ('game2_correct', '18'), ('game2_wrong', '5'), ('game2_attempts', '23'), ('tid', 'A1PMZUBGXFANCI')])
+
+From 1689153037992153831@xxx Sun Jan 17 16:44:28 +0000 2021
+X-GM-THRID: 1689153037992153831
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id v5sm9136788qkv.64.2021.01.17.08.44.28
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:44:28 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:44:28 +0000
+Message-ID: <161090186813.10.6287494882982111244@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '19'), ('game1_wrong', '3'), ('game1_attempts', '22'), ('game2_correct', '33'), ('game2_wrong', '2'), ('game2_attempts', '35'), ('tid', 'A1M0QJIES2FARU')])
+
+From 1689150934117117213@xxx Sun Jan 17 16:11:02 +0000 2021
+X-GM-THRID: 1689150934117117213
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id d84sm9217400qke.47.2021.01.17.08.11.02
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:11:02 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:11:02 +0000
+Message-ID: <161089986186.8.11703583003482332834@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '15'), ('game1_wrong', '0'), ('game1_attempts', '15'), ('game2_correct', '20'), ('game2_wrong', '1'), ('game2_attempts', '21'), ('tid', 'A3PXCGNI00N2BU')])
+
+From 1689077033304627732@xxx Sat Jan 16 20:36:25 +0000 2021
+X-GM-THRID: 1689077033304627732
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 39205b21-1eb9-4a75-943c-b22531026115.prvt.dyno.rt.heroku.com (ec2-54-196-104-86.compute-1.amazonaws.com. [54.196.104.86])
+        by smtp.gmail.com with ESMTPSA id h25sm7731646qkh.122.2021.01.16.12.36.24
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 16 Jan 2021 12:36:25 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sat, 16 Jan 2021 20:36:24 +0000
+Message-ID: <161082938464.8.14644564935117084907@39205b21-1eb9-4a75-943c-b22531026115.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '5'), ('game1_attempts', '18'), ('game2_correct', '34'), ('game2_wrong', '4'), ('game2_attempts', '38'), ('tid', 'A21UA6O7ZFAIQJ')])
+
+From 1689189003386518226@xxx Mon Jan 18 02:16:08 +0000 2021
+X-GM-THRID: 1689189003386518226
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com (ec2-3-86-52-158.compute-1.amazonaws.com. [3.86.52.158])
+        by smtp.gmail.com with ESMTPSA id e7sm2367534qto.46.2021.01.17.18.16.07
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 18:16:07 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 02:16:07 +0000
+Message-ID: <161093616750.8.3165697287473205581@de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '21'), ('game1_wrong', '0'), ('game1_attempts', '21'), ('game2_correct', '25'), ('game2_wrong', '2'), ('game2_attempts', '27'), ('tid', 'A1OSJTNI18VOKL')])
+
+From 1689189117257676146@xxx Mon Jan 18 02:17:56 +0000 2021
+X-GM-THRID: 1689189117257676146
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com (ec2-3-86-52-158.compute-1.amazonaws.com. [3.86.52.158])
+        by smtp.gmail.com with ESMTPSA id s186sm9732302qka.98.2021.01.17.18.17.56
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 18:17:56 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 02:17:56 +0000
+Message-ID: <161093627630.8.6091873904711537980@de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '14'), ('game1_wrong', '6'), ('game1_attempts', '20'), ('game2_correct', '28'), ('game2_wrong', '5'), ('game2_attempts', '33'), ('tid', 'ACU8RTAZQU1GP')])
+
+From 1689161959086368664@xxx Sun Jan 17 19:06:16 +0000 2021
+X-GM-THRID: 1689161959086368664
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com (ec2-3-94-105-120.compute-1.amazonaws.com. [3.94.105.120])
+        by smtp.gmail.com with ESMTPSA id e10sm8640644qtr.92.2021.01.17.11.06.15
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 11:06:16 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 19:06:15 +0000
+Message-ID: <161091037560.8.15870209562268295081@07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '18'), ('game1_wrong', '1'), ('game1_attempts', '19'), ('game2_correct', '24'), ('game2_wrong', '2'), ('game2_attempts', '26'), ('tid', 'A3CZ9T0BO40T0')])
+
+From 1689153411945189484@xxx Sun Jan 17 16:50:25 +0000 2021
+X-GM-THRID: 1689153411945189484
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id x3sm8403796qtd.56.2021.01.17.08.50.25
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:50:25 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:50:25 +0000
+Message-ID: <161090222511.8.9808098391303941924@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '24'), ('game1_wrong', '1'), ('game1_attempts', '25'), ('game2_correct', '31'), ('game2_wrong', '2'), ('game2_attempts', '33'), ('tid', 'A2VA0NCPWJ8XZG')])
+
+From 1689161259205717007@xxx Sun Jan 17 18:55:09 +0000 2021
+X-GM-THRID: 1689161259205717007
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com (ec2-3-94-105-120.compute-1.amazonaws.com. [3.94.105.120])
+        by smtp.gmail.com with ESMTPSA id c28sm8978623qtv.2.2021.01.17.10.55.09
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 10:55:09 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 18:55:09 +0000
+Message-ID: <161090970879.8.64763698007811302@07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '22'), ('game1_wrong', '3'), ('game1_attempts', '25'), ('game2_correct', '33'), ('game2_wrong', '1'), ('game2_attempts', '34'), ('tid', 'A2JP9IKRHNLRPI')])
+
+From 1689195364680115698@xxx Mon Jan 18 03:57:14 +0000 2021
+X-GM-THRID: 1689195364680115698
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com (ec2-52-205-134-234.compute-1.amazonaws.com. [52.205.134.234])
+        by smtp.gmail.com with ESMTPSA id y67sm9995211qka.68.2021.01.17.19.57.14
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 19:57:14 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 03:57:14 +0000
+Message-ID: <161094223434.8.5257909724789820280@ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '24'), ('game1_wrong', '0'), ('game1_attempts', '24'), ('game2_correct', '37'), ('game2_wrong', '5'), ('game2_attempts', '42'), ('tid', 'A2MCG5W6LHSRG9')])
+
+From 1689151459556516682@xxx Sun Jan 17 16:19:23 +0000 2021
+X-GM-THRID: 1689151459556516682
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id c7sm8543166qtm.60.2021.01.17.08.19.23
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:19:23 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:19:23 +0000
+Message-ID: <161090036308.10.1033941844659267453@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '14'), ('game1_wrong', '3'), ('game1_attempts', '17'), ('game2_correct', '32'), ('game2_wrong', '2'), ('game2_attempts', '34'), ('tid', 'ASFBN5SC3SGDG')])
+
+From 1689163253268643885@xxx Sun Jan 17 19:26:50 +0000 2021
+X-GM-THRID: 1689163253268643885
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com (ec2-3-94-105-120.compute-1.amazonaws.com. [3.94.105.120])
+        by smtp.gmail.com with ESMTPSA id y26sm9146324qth.53.2021.01.17.11.26.50
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 11:26:50 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 19:26:50 +0000
+Message-ID: <161091161032.8.5602014971348264233@07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '22'), ('game1_wrong', '1'), ('game1_attempts', '23'), ('game2_correct', '27'), ('game2_wrong', '1'), ('game2_attempts', '28'), ('tid', 'AKSJ3C5O3V9RB')])
+
+From 1689153094378028851@xxx Sun Jan 17 16:45:22 +0000 2021
+X-GM-THRID: 1689153094378028851
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id 102sm8776372qtg.45.2021.01.17.08.45.22
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:45:22 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:45:22 +0000
+Message-ID: <161090192189.8.860081775938196556@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '15'), ('game1_wrong', '0'), ('game1_attempts', '15'), ('game2_correct', '20'), ('game2_wrong', '0'), ('game2_attempts', '20'), ('tid', 'A1Q6VY3C3CEOA0')])
+
+From 1689077544099235478@xxx Sat Jan 16 20:44:32 +0000 2021
+X-GM-THRID: 1689077544099235478
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 39205b21-1eb9-4a75-943c-b22531026115.prvt.dyno.rt.heroku.com (ec2-54-196-104-86.compute-1.amazonaws.com. [54.196.104.86])
+        by smtp.gmail.com with ESMTPSA id 38sm5087208qtb.67.2021.01.16.12.44.31
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 16 Jan 2021 12:44:32 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sat, 16 Jan 2021 20:44:31 +0000
+Message-ID: <161082987170.8.7117671948771960100@39205b21-1eb9-4a75-943c-b22531026115.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '21'), ('game1_wrong', '0'), ('game1_attempts', '21'), ('game2_correct', '26'), ('game2_wrong', '2'), ('game2_attempts', '28'), ('tid', 'A2TLN8489YGY81')])
+
+From 1689196012349903009@xxx Mon Jan 18 04:07:32 +0000 2021
+X-GM-THRID: 1689196012349903009
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com (ec2-52-205-134-234.compute-1.amazonaws.com. [52.205.134.234])
+        by smtp.gmail.com with ESMTPSA id j56sm9782600qtc.58.2021.01.17.20.07.31
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 20:07:32 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 04:07:31 +0000
+Message-ID: <161094285165.10.4305186119300401586@ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '16'), ('game1_wrong', '0'), ('game1_attempts', '16'), ('game2_correct', '24'), ('game2_wrong', '0'), ('game2_attempts', '24'), ('tid', 'A16QZSBYXE5VY8')])
+
+From 1689156657436192200@xxx Sun Jan 17 17:42:00 +0000 2021
+X-GM-THRID: 1689156657436192200
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 340b078d-1299-4aa5-a683-d02ebe30d7f4.prvt.dyno.rt.heroku.com (ec2-34-238-114-162.compute-1.amazonaws.com. [34.238.114.162])
+        by smtp.gmail.com with ESMTPSA id p75sm9262759qka.72.2021.01.17.09.42.00
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 09:42:00 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 17:42:00 +0000
+Message-ID: <161090532002.8.6117985659754303237@340b078d-1299-4aa5-a683-d02ebe30d7f4.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '23'), ('game1_wrong', '1'), ('game1_attempts', '24'), ('game2_correct', '32'), ('game2_wrong', '0'), ('game2_attempts', '32'), ('tid', 'A1NKBXOTZAI1YK')])
+
+From 1689150361760229227@xxx Sun Jan 17 16:01:56 +0000 2021
+X-GM-THRID: 1689150361760229227
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id z20sm8929587qkz.37.2021.01.17.08.01.55
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:01:56 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:01:55 +0000
+Message-ID: <161089931548.8.3715594136942612090@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '22'), ('game1_wrong', '3'), ('game1_attempts', '25'), ('game2_correct', '34'), ('game2_wrong', '1'), ('game2_attempts', '35'), ('tid', 'A2M1CVZZJAN4T4')])
+
+From 1689155820913620806@xxx Sun Jan 17 17:28:42 +0000 2021
+X-GM-THRID: 1689155820913620806
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 340b078d-1299-4aa5-a683-d02ebe30d7f4.prvt.dyno.rt.heroku.com (ec2-34-238-114-162.compute-1.amazonaws.com. [34.238.114.162])
+        by smtp.gmail.com with ESMTPSA id c20sm8514099qtj.29.2021.01.17.09.28.42
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 09:28:42 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 17:28:42 +0000
+Message-ID: <161090452204.9.11906714969808512544@340b078d-1299-4aa5-a683-d02ebe30d7f4.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '20'), ('game1_wrong', '3'), ('game1_attempts', '23'), ('game2_correct', '31'), ('game2_wrong', '1'), ('game2_attempts', '32'), ('tid', 'AXPZAP62ZYWP8')])
+
+From 1689245757288953893@xxx Mon Jan 18 17:18:12 +0000 2021
+X-GM-THRID: 1689245757288953893
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com (ec2-18-234-170-160.compute-1.amazonaws.com. [18.234.170.160])
+        by smtp.gmail.com with ESMTPSA id n195sm10856555qke.20.2021.01.18.09.18.12
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 Jan 2021 09:18:12 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 17:18:12 +0000
+Message-ID: <161099029225.9.13537262446703116124@5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '0'), ('game1_attempts', '13'), ('game2_correct', '26'), ('game2_wrong', '0'), ('game2_attempts', '26'), ('tid', 'A2L26DMSVUEDP6')])
+
+From 1689150545231371516@xxx Sun Jan 17 16:04:51 +0000 2021
+X-GM-THRID: 1689150545231371516
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id r17sm8310094qta.78.2021.01.17.08.04.51
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 08:04:51 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 16:04:51 +0000
+Message-ID: <161089949107.8.9657084656931849505@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '20'), ('game1_wrong', '0'), ('game1_attempts', '20'), ('game2_correct', '33'), ('game2_wrong', '0'), ('game2_attempts', '33'), ('tid', 'A3PXCRGJZE1QC3')])
+
+From 1689194788890213982@xxx Mon Jan 18 03:48:05 +0000 2021
+X-GM-THRID: 1689194788890213982
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com (ec2-52-205-134-234.compute-1.amazonaws.com. [52.205.134.234])
+        by smtp.gmail.com with ESMTPSA id x134sm10105492qka.1.2021.01.17.19.48.05
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 19:48:05 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 03:48:05 +0000
+Message-ID: <161094168494.10.11525739045209694620@ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '20'), ('game1_wrong', '0'), ('game1_attempts', '20'), ('game2_correct', '29'), ('game2_wrong', '0'), ('game2_attempts', '29'), ('tid', 'A2MTOSH583K270')])
+
+From 1689155222648442882@xxx Sun Jan 17 17:19:12 +0000 2021
+X-GM-THRID: 1689155222648442882
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com (ec2-54-234-236-4.compute-1.amazonaws.com. [54.234.236.4])
+        by smtp.gmail.com with ESMTPSA id p13sm9214226qkg.80.2021.01.17.09.19.12
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 09:19:12 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 17:19:12 +0000
+Message-ID: <161090395191.8.15487095577790626728@87ce8262-d944-40da-80e4-7b59588f6682.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '14'), ('game1_wrong', '5'), ('game1_attempts', '19'), ('game2_correct', '23'), ('game2_wrong', '3'), ('game2_attempts', '26'), ('tid', 'A1NR3COO33J99C')])
+
+From 1689241237062353769@xxx Mon Jan 18 16:06:22 +0000 2021
+X-GM-THRID: 1689241237062353769
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com (ec2-18-234-170-160.compute-1.amazonaws.com. [18.234.170.160])
+        by smtp.gmail.com with ESMTPSA id x28sm10211291qtv.8.2021.01.18.08.06.21
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 Jan 2021 08:06:21 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 16:06:21 +0000
+Message-ID: <161098598107.8.6216802865587574901@5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '16'), ('game1_wrong', '0'), ('game1_attempts', '16'), ('game2_correct', '20'), ('game2_wrong', '2'), ('game2_attempts', '22'), ('tid', 'AK5AFB4VLBCGK')])
+
+From 1689196501044661219@xxx Mon Jan 18 04:15:18 +0000 2021
+X-GM-THRID: 1689196501044661219
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com (ec2-52-205-134-234.compute-1.amazonaws.com. [52.205.134.234])
+        by smtp.gmail.com with ESMTPSA id s14sm10251621qke.45.2021.01.17.20.15.18
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 20:15:18 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 04:15:18 +0000
+Message-ID: <161094331790.8.14432098210305985918@ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '22'), ('game1_wrong', '0'), ('game1_attempts', '22'), ('game2_correct', '23'), ('game2_wrong', '5'), ('game2_attempts', '28'), ('tid', 'A30SESDXNRK4OM')])
+
+From 1689155943776734804@xxx Sun Jan 17 17:30:39 +0000 2021
+X-GM-THRID: 1689155943776734804
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 340b078d-1299-4aa5-a683-d02ebe30d7f4.prvt.dyno.rt.heroku.com (ec2-34-238-114-162.compute-1.amazonaws.com. [34.238.114.162])
+        by smtp.gmail.com with ESMTPSA id c7sm1963161qtc.82.2021.01.17.09.30.39
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 09:30:39 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 17:30:39 +0000
+Message-ID: <161090463920.9.14131506712521333936@340b078d-1299-4aa5-a683-d02ebe30d7f4.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '0'), ('game1_attempts', '13'), ('game2_correct', '16'), ('game2_wrong', '0'), ('game2_attempts', '16'), ('tid', 'A3LKG5TDFAT6UZ')])
+
+From 1689077054476405569@xxx Sat Jan 16 20:36:45 +0000 2021
+X-GM-THRID: 1689077054476405569
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 39205b21-1eb9-4a75-943c-b22531026115.prvt.dyno.rt.heroku.com (ec2-54-196-104-86.compute-1.amazonaws.com. [54.196.104.86])
+        by smtp.gmail.com with ESMTPSA id x134sm7761879qka.1.2021.01.16.12.36.45
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 16 Jan 2021 12:36:45 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sat, 16 Jan 2021 20:36:45 +0000
+Message-ID: <161082940523.9.14826918771687850360@39205b21-1eb9-4a75-943c-b22531026115.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '20'), ('game1_wrong', '5'), ('game1_attempts', '25'), ('game2_correct', '32'), ('game2_wrong', '5'), ('game2_attempts', '37'), ('tid', 'AE87K978IXPYP')])
+
+From 1689161171946779616@xxx Sun Jan 17 18:53:45 +0000 2021
+X-GM-THRID: 1689161171946779616
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com (ec2-3-94-105-120.compute-1.amazonaws.com. [3.94.105.120])
+        by smtp.gmail.com with ESMTPSA id p75sm9361302qka.72.2021.01.17.10.53.45
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 10:53:45 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Sun, 17 Jan 2021 18:53:45 +0000
+Message-ID: <161090962535.10.2115924420907248516@07d4d58c-a1c1-444f-bf0c-5aa68f973145.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '20'), ('game1_wrong', '2'), ('game1_attempts', '22'), ('game2_correct', '31'), ('game2_wrong', '1'), ('game2_attempts', '32'), ('tid', 'A2CK0OXMPOR9LE')])
+
+From 1689188872830247026@xxx Mon Jan 18 02:14:03 +0000 2021
+X-GM-THRID: 1689188872830247026
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com (ec2-3-86-52-158.compute-1.amazonaws.com. [3.86.52.158])
+        by smtp.gmail.com with ESMTPSA id i8sm850459qtr.84.2021.01.17.18.14.03
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 18:14:03 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 02:14:03 +0000
+Message-ID: <161093604313.8.11669087298551571546@de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '19'), ('game1_wrong', '2'), ('game1_attempts', '21'), ('game2_correct', '19'), ('game2_wrong', '4'), ('game2_attempts', '23'), ('tid', 'A3HKZTDVORNEZ')])
+
+From 1689196396738156448@xxx Mon Jan 18 04:13:38 +0000 2021
+X-GM-THRID: 1689196396738156448
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com (ec2-52-205-134-234.compute-1.amazonaws.com. [52.205.134.234])
+        by smtp.gmail.com with ESMTPSA id t137sm7819152qke.127.2021.01.17.20.13.38
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 20:13:39 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 04:13:38 +0000
+Message-ID: <161094321875.8.15316738437321811330@ed22d979-f7ce-4e39-bd56-14d3c1fd93b0.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '15'), ('game1_wrong', '2'), ('game1_attempts', '17'), ('game2_correct', '19'), ('game2_wrong', '2'), ('game2_attempts', '21'), ('tid', 'A2PUO91RWWTH0F')])
+
+From 1689240645372627798@xxx Mon Jan 18 15:56:57 +0000 2021
+X-GM-THRID: 1689240645372627798
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com (ec2-18-234-170-160.compute-1.amazonaws.com. [18.234.170.160])
+        by smtp.gmail.com with ESMTPSA id c8sm10878132qkc.12.2021.01.18.07.56.57
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 Jan 2021 07:56:57 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 15:56:57 +0000
+Message-ID: <161098541665.8.2971231536518730028@5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '20'), ('game1_wrong', '6'), ('game1_attempts', '26'), ('game2_correct', '33'), ('game2_wrong', '4'), ('game2_attempts', '37'), ('tid', 'A2LAMCJLVCRQ4T')])
+
+From 1689244782545772921@xxx Mon Jan 18 17:02:43 +0000 2021
+X-GM-THRID: 1689244782545772921
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from 5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com (ec2-18-234-170-160.compute-1.amazonaws.com. [18.234.170.160])
+        by smtp.gmail.com with ESMTPSA id c17sm11102626qkb.13.2021.01.18.09.02.43
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 Jan 2021 09:02:43 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 17:02:43 +0000
+Message-ID: <161098936308.9.9798710276126669166@5a9af420-dce9-4f01-8fc6-f92464c87112.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '13'), ('game1_wrong', '2'), ('game1_attempts', '15'), ('game2_correct', '20'), ('game2_wrong', '1'), ('game2_attempts', '21'), ('tid', 'A1NPH1NMPOZGC6')])
+
+From 1689189215604678131@xxx Mon Jan 18 02:19:30 +0000 2021
+X-GM-THRID: 1689189215604678131
+X-Gmail-Labels: Sent,Inbox,Important,Opened
+Return-Path: <sgopal28mdppolicymin@gmail.com>
+Received: from de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com (ec2-3-86-52-158.compute-1.amazonaws.com. [3.86.52.158])
+        by smtp.gmail.com with ESMTPSA id 184sm9962899qkg.92.2021.01.17.18.19.30
+        for <sgopal28mdppolicymin@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 17 Jan 2021 18:19:30 -0800 (PST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Hello
+From: sgopal28mdppolicymin@gmail.com
+To: sgopal28mdppolicymin@gmail.com
+Date: Mon, 18 Jan 2021 02:19:30 +0000
+Message-ID: <161093636978.9.10110547266458668890@de4e7b84-1680-4374-8686-9173c3a971ec.prvt.dyno.rt.heroku.com>
+
+ImmutableMultiDict([('game1_correct', '19'), ('game1_wrong', '0'), ('game1_attempts', '19'), ('game2_correct', '24'), ('game2_wrong', '1'), ('game2_attempts', '25'), ('tid', 'A2S834OHCORO1W')])
+

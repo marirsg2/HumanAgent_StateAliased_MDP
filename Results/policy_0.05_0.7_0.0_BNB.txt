@@ -1,0 +1,2059 @@
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3365774 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     315.76     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     326.67     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1255.29     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     426.62     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 401.63 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.36% [avg time:  67.1 us, count: 141]
+ - load_state:  0.06% [avg time:   1.8 us, count: 141]
+ - bound:      94.12% [avg time:   2.7 ms, count: 141]
+ - objective:   0.61% [avg time:  51.8 us, count:  47]
+ - branch:      0.33% [avg time:  29.3 us, count:  45]
+ - other:       2.53% [avg time:  72.0 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3366037 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     132.37     0.00%      0
+       129       136  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     127.98     0.00%      0
+       249       216  |       44.45054        45.92402    3.314882%     1.473482805 |      2.0     119.58     0.00%      0
+       372       309  |       44.45054        45.72786    2.873577%     1.277320341 |      3.0     122.63     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       484       457  |       44.45054        45.60795    2.603823%     1.157413513 |      4.0     112.29     0.00%      0
+       608       633  |       44.45054        45.50544    2.373202%     1.054900972 |      5.0     122.85     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.2     134.85     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.2     440.32     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.2     650.77     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.5     205.95     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.51 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.09% [avg time:  86.3 us, count: 693]
+ - load_state:  0.02% [avg time:   1.9 us, count: 693]
+ - bound:      97.49% [avg time:   7.7 ms, count: 693]
+ - objective:   0.23% [avg time:  38.4 us, count: 326]
+ - branch:      0.18% [avg time:  29.9 us, count: 323]
+ - other:       1.00% [avg time:  79.1 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3366099 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     130.07     0.00%      0
+       130       135  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     128.90     0.00%      0
+       249       216  |       44.45054        45.92402    3.314882%     1.473482805 |      2.0     119.22     0.00%      0
+       373       312  |       44.45054        45.72786    2.873577%      1.27732034 |      3.0     123.48     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       487       458  |       44.45054        45.60331    2.593388%     1.152775051 |      4.0     113.40     0.00%      0
+       614       635  |       44.45054        45.50188    2.365187%     1.051338264 |      5.0     125.21     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.2     131.22     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.2     441.14     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.2     663.28     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.5     205.76     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.48 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.08% [avg time:  85.5 us, count: 693]
+ - load_state:  0.03% [avg time:   2.2 us, count: 693]
+ - bound:      97.49% [avg time:   7.7 ms, count: 693]
+ - objective:   0.22% [avg time:  36.8 us, count: 326]
+ - branch:      0.18% [avg time:  30.1 us, count: 323]
+ - other:       1.00% [avg time:  79.2 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3366170 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     133.04     0.00%      0
+       130       135  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     128.93     0.00%      0
+       249       216  |       44.45054        45.92402    3.314882%     1.473482805 |      2.0     118.99     0.00%      0
+       373       312  |       44.45054        45.72786    2.873577%      1.27732034 |      3.0     123.00     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       485       460  |       44.45054        45.60331    2.593388%     1.152775051 |      4.0     112.05     0.00%      0
+       611       634  |       44.45054        45.50544    2.373202%     1.054900958 |      5.0     124.69     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.2     136.35     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.2     449.14     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.2     664.17     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.5     205.11     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.49 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.12% [avg time:  88.4 us, count: 693]
+ - load_state:  0.03% [avg time:   2.3 us, count: 693]
+ - bound:      97.42% [avg time:   7.7 ms, count: 693]
+ - objective:   0.22% [avg time:  37.7 us, count: 326]
+ - branch:      0.18% [avg time:  29.9 us, count: 323]
+ - other:       1.03% [avg time:  81.9 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3366339 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     133.61     0.00%      0
+       130       135  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     128.94     0.00%      0
+       250       215  |       44.45054        45.92402    3.314882%     1.473482805 |      2.0     120.04     0.00%      0
+       374       311  |       44.45054        45.72786    2.873577%      1.27732034 |      3.0     123.20     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       488       461  |       44.45054        45.60331    2.593388%     1.152775051 |      4.0     114.27     0.00%      0
+       615       638  |       44.45054        45.50188    2.365187%     1.051338264 |      5.0     125.99     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.2     135.84     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.2     445.15     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.2     664.83     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.5     206.09     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.45 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.10% [avg time:  86.4 us, count: 693]
+ - load_state:  0.02% [avg time:   1.9 us, count: 693]
+ - bound:      97.49% [avg time:   7.7 ms, count: 693]
+ - objective:   0.22% [avg time:  37.4 us, count: 326]
+ - branch:      0.17% [avg time:  28.2 us, count: 323]
+ - other:       1.00% [avg time:  78.7 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3366370 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     133.12     0.00%      0
+       132       137  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     131.03     0.00%      0
+       254       215  |       44.45054        45.91669    3.298392%     1.466153162 |      2.0     122.06     0.00%      0
+       381       328  |       44.45054        45.72695    2.871531%     1.276411081 |      3.0     125.97     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       496       469  |       44.45054        45.59755    2.580417%     1.147009389 |      4.0     115.16     0.00%      0
+       626       647  |       44.45054        45.49643    2.352933%     1.045891201 |      5.0     128.96     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.1     141.06     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.1     470.49     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.1     675.79     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.4     209.88     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.36 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.06% [avg time:  82.3 us, count: 693]
+ - load_state:  0.02% [avg time:   1.8 us, count: 693]
+ - bound:      97.53% [avg time:   7.5 ms, count: 693]
+ - objective:   0.22% [avg time:  36.0 us, count: 326]
+ - branch:      0.17% [avg time:  28.6 us, count: 323]
+ - other:       1.00% [avg time:  77.1 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3367624 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     133.11     0.00%      0
+       132       137  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     129.97     0.00%      0
+       250       215  |       44.45054        45.92402    3.314882%     1.473482805 |      2.0     118.41     0.00%      0
+       372       309  |       44.45054        45.72786    2.873577%     1.277320341 |      3.0     120.98     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       487       458  |       44.45054        45.60331    2.593388%     1.152775051 |      4.0     114.78     0.00%      0
+       614       635  |       44.45054        45.50188    2.365187%     1.051338264 |      5.0     125.97     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.2     136.23     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.2     461.13     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.2     663.85     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.5     207.91     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.47 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.09% [avg time:  86.3 us, count: 693]
+ - load_state:  0.02% [avg time:   1.9 us, count: 693]
+ - bound:      97.48% [avg time:   7.7 ms, count: 693]
+ - objective:   0.22% [avg time:  36.8 us, count: 326]
+ - branch:      0.17% [avg time:  28.5 us, count: 323]
+ - other:       1.02% [avg time:  80.3 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(44.4505, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3367676 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       44.45054             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       44.45054        48.17474    8.378309%     3.724203614 |      0.0     132.58     0.00%      0
+       131       138  |       44.45054        46.16036    3.846574%     1.709822929 |      1.0     130.12     0.00%      0
+       252       217  |       44.45054        45.92402    3.314882%     1.473482805 |      2.0     120.84     0.00%      0
+       378       319  |       44.45054        45.72695    2.871531%     1.276411083 |      3.0     125.25     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       492       465  |       44.45054          45.603    2.592689%     1.152464085 |      4.0     113.75     0.00%      0
+       620       645  |       44.45054        45.50188    2.365187%     1.051338254 |      5.0     126.61     0.00%      0
+*      634       575  |       44.56468        45.49074    2.078029%     0.926066719 |      5.1     137.79     0.00%      0
+*      635       190  |       45.38153        45.49074    0.240666%    0.1092179641 |      5.1     458.94     0.00%      0
+*      636        57  |       45.45317        45.49074    0.082666%   0.03757413478 |      5.1     664.52     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       693         0  |       45.45317        45.45317    0.000000%               0 |      5.4     208.76     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 45.45317
+ - bound: 45.45317
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 693
+ - wall_time: 5.42 s
+ - best_node: Node(objective=45.45317)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 693 (proc rank=0)
+ - max: 693 (proc rank=0)
+Average Worker Timing:
+ - queue:       1.07% [avg time:  83.9 us, count: 693]
+ - load_state:  0.03% [avg time:   2.2 us, count: 693]
+ - bound:      97.48% [avg time:   7.6 ms, count: 693]
+ - objective:   0.23% [avg time:  37.7 us, count: 326]
+ - branch:      0.18% [avg time:  29.6 us, count: 323]
+ - other:       1.01% [avg time:  79.2 us, count: 693]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3564079 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      55.55     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.27     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.1      54.88     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.1      54.29     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       222       359  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      54.29     0.00%      0
+       277       444  |       34.39509        35.97374    4.589752%     1.578649371 |      5.1      54.16     0.00%      0
+       331       554  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.54     0.00%      0
+       383       674  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.67     0.00%      0
+       437       812  |       34.39509        35.86152    4.263475%     1.466426052 |      8.1      53.05     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       489       968  |       34.39509        35.80056    4.086260%     1.405472886 |      9.1      51.52     0.00%      0
+       544      1089  |       34.39509        35.77186    4.002819%     1.376773059 |     10.1      54.37     0.00%      0
+       596      1209  |       34.39509        35.74607    3.927835%     1.350982379 |     11.2      50.96     0.00%      0
+       646      1331  |       34.39509        35.73261    3.888700%     1.337521762 |     12.2      49.39     0.00%      0
+       696      1461  |       34.39509        35.72481    3.866010%     1.329717597 |     13.2      49.28     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       749      1620  |       34.39509        35.70959    3.821754%     1.314495723 |     14.2      52.67     0.00%      0
+       799      1770  |       34.39509        35.69621    3.782856%      1.30111685 |     15.2      49.46     0.00%      0
+       851      1926  |       34.39509        35.68179    3.740934%     1.286697736 |     16.2      51.62     0.00%      0
+       902      2079  |       34.39509        35.66352    3.687816%     1.268427512 |     17.2      50.94     0.00%      0
+       956      2241  |       34.39509        35.64617    3.637383%     1.251081207 |     18.2      53.69     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1011      2398  |       34.39509        35.62318    3.570541%      1.22809079 |     19.2      54.16     0.00%      0
+      1064      2549  |       34.39509        35.60688    3.523145%     1.211788714 |     20.2      52.98     0.00%      0
+      1117      2708  |       34.39509        35.59517    3.489099%     1.200078627 |     21.3      52.58     0.00%      0
+      1169      2860  |       34.39509        35.58245    3.452110%     1.187356292 |     22.3      51.54     0.00%      0
+      1221      3004  |       34.39509        35.56466    3.400386%     1.169565814 |     23.3      51.94     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1276      3161  |       34.39509        35.55541    3.373500%     1.160318181 |     24.3      54.43     0.00%      0
+      1328      3301  |       34.39509        35.54675    3.348323%     1.151658664 |     25.3      51.92     0.00%      0
+      1381      3444  |       34.39509        35.54022    3.329351%     1.145133198 |     26.3      52.21     0.00%      0
+      1434      3587  |       34.39509        35.53382    3.310725%     1.138726831 |     27.3      52.89     0.00%      0
+      1486      3727  |       34.39509        35.52509    3.285360%     1.130002659 |     28.3      51.72     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1536      3857  |       34.39509        35.52017    3.271054%     1.125081815 |     29.3      49.75     0.00%      0
+      1590      4019  |       34.39509        35.51465    3.255008%     1.119562923 |     30.3      53.20     0.00%      0
+      1641      4152  |       34.39509        35.50604    3.229958%     1.110946942 |     31.3      50.33     0.00%      0
+      1693      4272  |       34.39509        35.49888    3.209161%      1.10379369 |     32.4      50.77     0.00%      0
+      1746      4399  |       34.39509        35.49507    3.198075%     1.099980766 |     33.4      52.23     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1798      4555  |       34.39509        35.48902    3.180482%     1.093929492 |     34.4      51.45     0.00%      0
+      1849      4688  |       34.39509        35.48213    3.160458%     1.087042228 |     35.4      50.17     0.00%      0
+      1901      4804  |       34.39509        35.47722    3.146187%     1.082133683 |     36.4      51.72     0.00%      0
+      1952      4909  |       34.39509        35.47262    3.132817%     1.077535335 |     37.4      50.76     0.00%      0
+      2007      5070  |       34.39509        35.46492    3.110426%     1.069833817 |     38.4      54.75     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2061      5232  |       34.39509        35.45725    3.088116%     1.062160342 |     39.4      53.91     0.00%      0
+      2113      5348  |       34.39509        35.45277    3.075090%     1.057680074 |     40.4      51.70     0.00%      0
+      2166      5499  |       34.39509        35.44559    3.054209%     1.050498068 |     41.4      52.53     0.00%      0
+      2221      5664  |       34.39509        35.43906    3.035244%     1.043974914 |     42.4      53.96     0.00%      0
+      2273      5804  |       34.39509        35.43628    3.027159%     1.041193914 |     43.5      51.68     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2326      5947  |       34.39509        35.43357    3.019279%      1.03848383 |     44.5      51.84     0.00%      0
+      2377      6100  |       34.39509         35.4299    3.008587%     1.034806093 |     45.5      50.97     0.00%      0
+      2430      6235  |       34.39509        35.42566    2.996266%      1.03056839 |     46.5      52.82     0.00%      0
+      2484      6397  |       34.39509        35.42276    2.987838%     1.027669728 |     47.5      53.81     0.00%      0
+      2536      6513  |       34.39509        35.42041    2.981015%     1.025322713 |     48.5      51.41     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2583      6646  |       34.39509        35.41758    2.972785%     1.022492088 |     49.5      46.92     0.00%      0
+      2635      6794  |       34.39509        35.41423    2.963037%     1.019139203 |     50.5      51.49     0.00%      0
+      2687      6910  |       34.39509        35.41191    2.956291%     1.016819082 |     51.5      50.84     0.00%      0
+      2741      7064  |       34.39509        35.40762    2.943828%     1.012532444 |     52.5      53.03     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     53.0      51.48     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     53.0     176.16     0.00%      0
+      2826        95  |       35.39687        35.40318    0.017837%  0.006313706682 |     54.0      61.00     0.00%      0
+      2880        41  |       35.39687        35.40007    0.009051%  0.003203913768 |     55.0      54.13     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.8      51.50     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.84 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.72% [avg time: 137.9 us, count: 2921]
+ - load_state:  0.01% [avg time:   1.9 us, count: 2921]
+ - bound:      98.54% [avg time:  18.8 ms, count: 2921]
+ - objective:   0.15% [avg time:  33.3 us, count: 2477]
+ - branch:      0.12% [avg time:  27.9 us, count: 2475]
+ - other:       0.46% [avg time:  87.7 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3564152 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      54.50     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.48     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.0      54.94     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.1      54.41     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       222       359  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      54.44     0.00%      0
+       277       444  |       34.39509        35.97374    4.589752%     1.578649371 |      5.1      54.25     0.00%      0
+       331       554  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.81     0.00%      0
+       383       674  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.54     0.00%      0
+       437       812  |       34.39509        35.86152    4.263475%     1.466426052 |      8.1      53.01     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       489       968  |       34.39509        35.80056    4.086260%     1.405472886 |      9.1      51.61     0.00%      0
+       544      1089  |       34.39509        35.77186    4.002819%     1.376773059 |     10.1      54.77     0.00%      0
+       596      1209  |       34.39509        35.74607    3.927835%     1.350982379 |     11.1      51.40     0.00%      0
+       646      1331  |       34.39509        35.73261    3.888700%     1.337521762 |     12.1      49.96     0.00%      0
+       696      1461  |       34.39509        35.72481    3.866010%     1.329717597 |     13.2      49.58     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       750      1623  |       34.39509        35.70959    3.821754%     1.314495723 |     14.2      52.94     0.00%      0
+       803      1782  |       34.39509        35.69569    3.781343%     1.300596362 |     15.2      52.79     0.00%      0
+       855      1938  |       34.39509        35.68179    3.740934%     1.286697725 |     16.2      51.88     0.00%      0
+       906      2091  |       34.39509        35.66133    3.681444%     1.266236113 |     17.2      50.69     0.00%      0
+       960      2253  |       34.39509        35.64517    3.634472%      1.25007973 |     18.2      53.46     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1014      2403  |       34.39509        35.61939    3.559524%     1.224301368 |     19.2      53.96     0.00%      0
+      1068      2561  |       34.39509        35.60568    3.519665%     1.210591945 |     20.2      53.32     0.00%      0
+      1121      2720  |       34.39509        35.59511    3.488933%     1.200021486 |     21.2      52.53     0.00%      0
+      1173      2872  |       34.39509        35.58236    3.451869%     1.187273482 |     22.2      51.81     0.00%      0
+      1226      3019  |       34.39509        35.56272    3.394767%     1.167633194 |     23.2      52.17     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1281      3176  |       34.39509        35.55335    3.367526%     1.158263748 |     24.2      54.38     0.00%      0
+      1333      3316  |       34.39509        35.54663    3.347968%     1.151536632 |     25.2      52.02     0.00%      0
+      1386      3459  |       34.39509         35.5402    3.329284%     1.145110094 |     26.3      52.19     0.00%      0
+      1439      3602  |       34.39509        35.53355    3.309961%     1.138463936 |     27.3      52.29     0.00%      0
+      1491      3742  |       34.39509        35.52458    3.283866%     1.129488529 |     28.3      51.56     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1542      3875  |       34.39509        35.51979    3.269945%     1.124700663 |     29.3      50.10     0.00%      0
+      1596      4037  |       34.39509        35.51423    3.253790%     1.119144145 |     30.3      53.77     0.00%      0
+      1647      4170  |       34.39509        35.50604    3.229958%     1.110946935 |     31.3      50.84     0.00%      0
+      1699      4290  |       34.39509        35.49885    3.209051%     1.103756056 |     32.3      51.08     0.00%      0
+      1752      4417  |       34.39509        35.49507    3.198075%     1.099980758 |     33.3      52.06     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1804      4573  |       34.39509         35.4887    3.179547%     1.093607913 |     34.3      51.90     0.00%      0
+      1856      4709  |       34.39509        35.48213    3.160458%     1.087042212 |     35.4      51.54     0.00%      0
+      1908      4809  |       34.39509        35.47706    3.145699%      1.08196599 |     36.4      50.96     0.00%      0
+      1960      4929  |       34.39509        35.47251    3.132487%     1.077421817 |     37.4      51.47     0.00%      0
+      2015      5094  |       34.39509        35.46463    3.109581%     1.069543295 |     38.4      54.49     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2068      5237  |       34.39509        35.45725    3.088116%     1.062160336 |     39.4      52.91     0.00%      0
+      2120      5361  |       34.39509        35.45152    3.071443%     1.056425601 |     40.4      51.96     0.00%      0
+      2167      5502  |       34.39509        35.44559    3.054209%     1.050498068 |     41.4      46.49     0.00%      0
+      2221      5664  |       34.39509        35.43906    3.035244%     1.043974914 |     42.4      53.56     0.00%      0
+      2273      5804  |       34.39509        35.43628    3.027159%     1.041193914 |     43.4      51.75     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2326      5947  |       34.39509        35.43357    3.019279%      1.03848383 |     44.4      51.86     0.00%      0
+      2379      6106  |       34.39509         35.4299    3.008587%     1.034806093 |     45.5      52.22     0.00%      0
+      2433      6244  |       34.39509        35.42564    2.996216%     1.030551169 |     46.5      53.43     0.00%      0
+      2486      6403  |       34.39509        35.42276    2.987838%     1.027669728 |     47.5      52.70     0.00%      0
+      2538      6515  |       34.39509        35.42041    2.981015%     1.025322708 |     48.5      51.64     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2586      6655  |       34.39509        35.41685    2.970666%     1.021763076 |     49.5      47.28     0.00%      0
+      2639      6806  |       34.39509        35.41386    2.961978%      1.01877501 |     50.5      52.16     0.00%      0
+      2690      6919  |       34.39509        35.41157    2.955294%     1.016476121 |     51.5      50.77     0.00%      0
+      2744      7073  |       34.39509        35.40762    2.943828%     1.012532444 |     52.5      53.25     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     53.0      51.01     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     53.0     177.52     0.00%      0
+      2828        93  |       35.39687        35.40318    0.017837%  0.006313706682 |     54.0      62.13     0.00%      0
+      2882        39  |       35.39687        35.39959    0.007677%  0.002717445379 |     55.0      53.89     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.7      52.17     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.76 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.60% [avg time: 114.1 us, count: 2921]
+ - load_state:  0.01% [avg time:   2.0 us, count: 2921]
+ - bound:      98.62% [avg time:  18.8 ms, count: 2921]
+ - objective:   0.15% [avg time:  33.1 us, count: 2477]
+ - branch:      0.13% [avg time:  28.2 us, count: 2475]
+ - other:       0.50% [avg time:  95.4 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3564273 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      55.35     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.41     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.0      55.03     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.1      54.45     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       221       360  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      54.02     0.00%      0
+       276       441  |       34.39509        35.97374    4.589752%     1.578649379 |      5.1      54.26     0.00%      0
+       330       551  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.60     0.00%      0
+       382       671  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.68     0.00%      0
+       435       806  |       34.39509        35.87318    4.297390%     1.478091126 |      8.1      52.61     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       487       962  |       34.39509        35.80148    4.088942%     1.406395212 |      9.1      51.18     0.00%      0
+       543      1086  |       34.39509        35.77186    4.002819%     1.376773059 |     10.1      54.67     0.00%      0
+       595      1206  |       34.39509        35.74607    3.927835%     1.350982379 |     11.1      51.49     0.00%      0
+       645      1328  |       34.39509        35.73261    3.888700%     1.337521762 |     12.2      49.70     0.00%      0
+       694      1455  |       34.39509        35.72481    3.866010%     1.329717597 |     13.2      48.96     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       748      1617  |       34.39509        35.71277    3.831020%     1.317682682 |     14.2      53.01     0.00%      0
+       800      1773  |       34.39509        35.69621    3.782856%      1.30111685 |     15.2      51.78     0.00%      0
+       852      1929  |       34.39509        35.68179    3.740934%     1.286697736 |     16.2      51.56     0.00%      0
+       903      2082  |       34.39509        35.66352    3.687816%     1.268427512 |     17.2      50.82     0.00%      0
+       958      2247  |       34.39509        35.64517    3.634472%      1.25007973 |     18.2      53.95     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1012      2401  |       34.39509        35.62318    3.570541%      1.22809079 |     19.2      53.94     0.00%      0
+      1065      2552  |       34.39509        35.60568    3.519665%     1.210591945 |     20.2      52.87     0.00%      0
+      1118      2711  |       34.39509        35.59517    3.489099%     1.200078627 |     21.2      52.62     0.00%      0
+      1170      2863  |       34.39509        35.58245    3.452110%     1.187356292 |     22.2      51.31     0.00%      0
+      1222      3007  |       34.39509        35.56466    3.400386%     1.169565814 |     23.2      51.22     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1276      3161  |       34.39509        35.55541    3.373500%     1.160318181 |     24.2      53.78     0.00%      0
+      1328      3301  |       34.39509        35.54675    3.348323%     1.151658664 |     25.2      51.96     0.00%      0
+      1381      3444  |       34.39509        35.54022    3.329351%     1.145133198 |     26.3      52.27     0.00%      0
+      1434      3587  |       34.39509        35.53382    3.310725%     1.138726831 |     27.3      52.93     0.00%      0
+      1485      3724  |       34.39509        35.52509    3.285360%     1.130002659 |     28.3      50.70     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1535      3854  |       34.39509        35.52017    3.271054%     1.125081815 |     29.3      49.65     0.00%      0
+      1589      4016  |       34.39509        35.51465    3.255008%     1.119562923 |     30.3      53.35     0.00%      0
+      1641      4152  |       34.39509        35.50604    3.229958%     1.110946942 |     31.3      51.14     0.00%      0
+      1693      4272  |       34.39509        35.49888    3.209161%      1.10379369 |     32.3      51.08     0.00%      0
+      1746      4399  |       34.39509        35.49507    3.198075%     1.099980766 |     33.3      52.18     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1798      4555  |       34.39509        35.48902    3.180482%     1.093929492 |     34.3      51.72     0.00%      0
+      1849      4688  |       34.39509        35.48213    3.160458%     1.087042228 |     35.4      50.00     0.00%      0
+      1901      4804  |       34.39509        35.47722    3.146187%     1.082133683 |     36.4      51.59     0.00%      0
+      1952      4909  |       34.39509        35.47262    3.132817%     1.077535335 |     37.4      50.69     0.00%      0
+      2007      5070  |       34.39509        35.46492    3.110426%     1.069833817 |     38.4      54.23     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2061      5232  |       34.39509        35.45725    3.088116%     1.062160342 |     39.4      53.65     0.00%      0
+      2113      5348  |       34.39509        35.45277    3.075090%     1.057680074 |     40.4      51.22     0.00%      0
+      2166      5499  |       34.39509        35.44559    3.054209%     1.050498068 |     41.5      47.78     0.00%      0
+      2220      5661  |       34.39509        35.43932    3.035999%     1.044234418 |     42.5      53.54     0.00%      0
+      2272      5801  |       34.39509        35.43628    3.027159%     1.041193923 |     43.5      51.70     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2325      5944  |       34.39509        35.43357    3.019279%      1.03848383 |     44.6      52.14     0.00%      0
+      2377      6100  |       34.39509         35.4299    3.008587%     1.034806093 |     45.6      51.98     0.00%      0
+      2430      6235  |       34.39509        35.42566    2.996266%      1.03056839 |     46.6      52.60     0.00%      0
+      2484      6397  |       34.39509        35.42276    2.987838%     1.027669728 |     47.6      53.83     0.00%      0
+      2536      6513  |       34.39509        35.42041    2.981015%     1.025322713 |     48.6      52.09     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2583      6646  |       34.39509        35.41758    2.972785%     1.022492088 |     49.6      46.89     0.00%      0
+      2635      6794  |       34.39509        35.41423    2.963037%     1.019139203 |     50.6      51.59     0.00%      0
+      2687      6910  |       34.39509        35.41191    2.956291%     1.016819082 |     51.6      51.07     0.00%      0
+      2741      7064  |       34.39509        35.40762    2.943828%     1.012532444 |     52.6      52.96     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     53.1      51.55     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     53.1     178.77     0.00%      0
+      2827        94  |       35.39687        35.40318    0.017837%  0.006313706682 |     54.1      61.62     0.00%      0
+      2881        40  |       35.39687        35.39959    0.007677%  0.002717445379 |     55.1      53.59     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.9      52.04     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.89 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.71% [avg time: 135.2 us, count: 2921]
+ - load_state:  0.01% [avg time:   1.9 us, count: 2921]
+ - bound:      98.53% [avg time:  18.9 ms, count: 2921]
+ - objective:   0.15% [avg time:  33.5 us, count: 2477]
+ - branch:      0.13% [avg time:  28.2 us, count: 2475]
+ - other:       0.48% [avg time:  90.9 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3564750 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      55.25     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.24     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.0      55.14     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.1      54.50     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       222       359  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      54.38     0.00%      0
+       277       444  |       34.39509        35.97374    4.589752%     1.578649371 |      5.1      54.25     0.00%      0
+       331       554  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.33     0.00%      0
+       383       674  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.69     0.00%      0
+       437       812  |       34.39509        35.86152    4.263475%     1.466426052 |      8.1      53.00     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       489       968  |       34.39509        35.80056    4.086260%     1.405472886 |      9.1      51.40     0.00%      0
+       544      1089  |       34.39509        35.77186    4.002819%     1.376773059 |     10.1      54.72     0.00%      0
+       596      1209  |       34.39509        35.74607    3.927835%     1.350982379 |     11.2      51.27     0.00%      0
+       646      1331  |       34.39509        35.73261    3.888700%     1.337521762 |     12.2      49.12     0.00%      0
+       695      1458  |       34.39509        35.72481    3.866010%     1.329717597 |     13.2      48.89     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       748      1617  |       34.39509        35.71277    3.831020%     1.317682682 |     14.2      52.54     0.00%      0
+       801      1776  |       34.39509        35.69569    3.781343%     1.300596362 |     15.2      52.78     0.00%      0
+       853      1932  |       34.39509        35.68179    3.740934%     1.286697725 |     16.2      51.98     0.00%      0
+       904      2085  |       34.39509        35.66352    3.687816%     1.268427512 |     17.2      50.92     0.00%      0
+       959      2250  |       34.39509        35.64517    3.634472%      1.25007973 |     18.2      53.97     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1014      2403  |       34.39509        35.61939    3.559524%     1.224301368 |     19.2      54.02     0.00%      0
+      1067      2558  |       34.39509        35.60568    3.519665%     1.210591945 |     20.2      52.79     0.00%      0
+      1120      2717  |       34.39509        35.59517    3.489099%     1.200078627 |     21.2      52.65     0.00%      0
+      1172      2869  |       34.39509        35.58245    3.452110%     1.187356292 |     22.2      51.55     0.00%      0
+      1224      3013  |       34.39509        35.56466    3.400386%     1.169565814 |     23.3      51.50     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1279      3170  |       34.39509        35.55428    3.370214%      1.15918806 |     24.3      54.30     0.00%      0
+      1331      3310  |       34.39509        35.54663    3.347968%     1.151536634 |     25.3      51.80     0.00%      0
+      1384      3453  |       34.39509        35.54022    3.329351%     1.145133198 |     26.3      52.49     0.00%      0
+      1437      3596  |       34.39509        35.53355    3.309961%     1.138463936 |     27.3      52.57     0.00%      0
+      1489      3736  |       34.39509        35.52458    3.283866%     1.129488529 |     28.3      51.18     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1539      3866  |       34.39509        35.51979    3.269945%      1.12470067 |     29.3      49.77     0.00%      0
+      1593      4028  |       34.39509        35.51423    3.253790%     1.119144145 |     30.3      53.74     0.00%      0
+      1644      4161  |       34.39509        35.50604    3.229958%     1.110946942 |     31.3      50.87     0.00%      0
+      1695      4278  |       34.39509        35.49888    3.209161%      1.10379369 |     32.3      50.79     0.00%      0
+      1747      4402  |       34.39509        35.49507    3.198075%     1.099980766 |     33.3      51.92     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1799      4558  |       34.39509        35.48902    3.180482%     1.093929492 |     34.3      51.69     0.00%      0
+      1850      4691  |       34.39509        35.48213    3.160458%     1.087042228 |     35.3      50.29     0.00%      0
+      1902      4803  |       34.39509        35.47722    3.146187%     1.082133683 |     36.4      51.22     0.00%      0
+      1953      4908  |       34.39509         35.4726    3.132754%     1.077513376 |     37.4      50.84     0.00%      0
+      2008      5073  |       34.39509        35.46492    3.110426%     1.069833817 |     38.4      54.46     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2062      5231  |       34.39509        35.45725    3.088116%     1.062160342 |     39.4      53.21     0.00%      0
+      2113      5348  |       34.39509        35.45277    3.075090%     1.057680074 |     40.4      50.48     0.00%      0
+      2166      5499  |       34.39509        35.44559    3.054209%     1.050498068 |     41.4      52.45     0.00%      0
+      2220      5661  |       34.39509        35.43932    3.035999%     1.044234418 |     42.4      53.80     0.00%      0
+      2272      5801  |       34.39509        35.43628    3.027159%     1.041193923 |     43.4      51.79     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2324      5941  |       34.39509        35.43414    3.020924%     1.039049356 |     44.4      51.96     0.00%      0
+      2377      6100  |       34.39509         35.4299    3.008587%     1.034806093 |     45.4      52.06     0.00%      0
+      2430      6235  |       34.39509        35.42566    2.996266%      1.03056839 |     46.4      52.79     0.00%      0
+      2484      6397  |       34.39509        35.42276    2.987838%     1.027669728 |     47.4      53.85     0.00%      0
+      2537      6516  |       34.39509        35.42041    2.981015%     1.025322708 |     48.5      52.18     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2584      6649  |       34.39509        35.41758    2.972785%     1.022492088 |     49.5      46.78     0.00%      0
+      2636      6797  |       34.39509        35.41423    2.963037%     1.019139203 |     50.5      51.54     0.00%      0
+      2687      6910  |       34.39509        35.41191    2.956291%     1.016819082 |     51.5      50.87     0.00%      0
+      2741      7064  |       34.39509        35.40762    2.943828%     1.012532444 |     52.5      53.00     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     53.0      48.62     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     53.0     176.31     0.00%      0
+      2827        94  |       35.39687        35.40318    0.017837%  0.006313706682 |     54.0      61.94     0.00%      0
+      2881        40  |       35.39687        35.39959    0.007677%  0.002717445379 |     55.0      53.70     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.8      51.98     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.80 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.69% [avg time: 131.2 us, count: 2921]
+ - load_state:  0.01% [avg time:   1.9 us, count: 2921]
+ - bound:      98.56% [avg time:  18.8 ms, count: 2921]
+ - objective:   0.15% [avg time:  33.4 us, count: 2477]
+ - branch:      0.13% [avg time:  28.7 us, count: 2475]
+ - other:       0.47% [avg time:  90.2 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3564876 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      55.09     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.46     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.0      55.30     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.0      54.69     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       221       360  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      53.76     0.00%      0
+       276       441  |       34.39509        35.97374    4.589752%     1.578649379 |      5.1      54.19     0.00%      0
+       330       551  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.45     0.00%      0
+       382       671  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.75     0.00%      0
+       436       809  |       34.39509        35.87318    4.297390%     1.478091126 |      8.1      53.31     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       488       965  |       34.39509        35.80148    4.088942%     1.406395212 |      9.1      51.56     0.00%      0
+       544      1089  |       34.39509        35.77186    4.002819%     1.376773059 |     10.1      54.84     0.00%      0
+       596      1209  |       34.39509        35.74607    3.927835%     1.350982379 |     11.1      51.36     0.00%      0
+       646      1331  |       34.39509        35.73261    3.888700%     1.337521762 |     12.1      49.96     0.00%      0
+       696      1461  |       34.39509        35.72481    3.866010%     1.329717597 |     13.1      49.60     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       749      1620  |       34.39509        35.70959    3.821754%     1.314495723 |     14.2      52.72     0.00%      0
+       803      1782  |       34.39509        35.69569    3.781343%     1.300596362 |     15.2      52.87     0.00%      0
+       856      1941  |       34.39509        35.68179    3.740934%     1.286697725 |     16.2      52.60     0.00%      0
+       908      2097  |       34.39509        35.66133    3.681444%     1.266236113 |     17.2      51.54     0.00%      0
+       963      2262  |       34.39509        35.64043    3.620687%      1.24533859 |     18.2      54.18     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1018      2411  |       34.39509        35.61644    3.550947%      1.22135141 |     19.2      54.01     0.00%      0
+      1072      2573  |       34.39509        35.60489    3.517353%     1.209796687 |     20.2      53.24     0.00%      0
+      1125      2732  |       34.39509        35.59506    3.488776%     1.199967611 |     21.2      52.71     0.00%      0
+      1177      2884  |       34.39509        35.58236    3.451869%     1.187273472 |     22.2      51.75     0.00%      0
+      1229      3028  |       34.39509        35.56263    3.394484%     1.167535951 |     23.2      51.99     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1284      3185  |       34.39509        35.55335    3.367526%     1.158263748 |     24.3      53.96     0.00%      0
+      1337      3328  |       34.39509        35.54659    3.347864%     1.151500737 |     25.3      52.38     0.00%      0
+      1389      3464  |       34.39509        35.54009    3.328956%     1.144997417 |     26.3      51.68     0.00%      0
+      1442      3611  |       34.39509        35.53355    3.309961%     1.138463933 |     27.3      52.61     0.00%      0
+      1494      3751  |       34.39509        35.52286    3.278863%     1.127767813 |     28.3      51.85     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1544      3881  |       34.39509        35.51979    3.269945%     1.124700663 |     29.3      50.04     0.00%      0
+      1599      4046  |       34.39509        35.51315    3.250632%     1.118057702 |     30.3      53.90     0.00%      0
+      1650      4179  |       34.39509        35.50506    3.227113%     1.109968545 |     31.3      50.81     0.00%      0
+      1702      4295  |       34.39509        35.49833    3.207542%     1.103236987 |     32.3      51.59     0.00%      0
+      1754      4423  |       34.39509        35.49299    3.192020%     1.097898149 |     33.3      51.90     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1807      4582  |       34.39509        35.48838    3.178623%     1.093290218 |     34.3      52.27     0.00%      0
+      1859      4714  |       34.39509        35.48192    3.159852%     1.086833971 |     35.4      51.27     0.00%      0
+      1910      4811  |       34.39509        35.47683    3.145054%     1.081744264 |     36.4      50.52     0.00%      0
+      1962      4935  |       34.39509        35.47251    3.132487%     1.077421797 |     37.4      51.43     0.00%      0
+      2018      5103  |       34.39509        35.46463    3.109581%     1.069543293 |     38.4      54.84     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2072      5249  |       34.39509        35.45573    3.083710%     1.060644909 |     39.4      53.48     0.00%      0
+      2125      5376  |       34.39509        35.45091    3.069671%     1.055816132 |     40.4      52.18     0.00%      0
+      2178      5535  |       34.39509        35.44246    3.045108%     1.047367775 |     41.4      52.60     0.00%      0
+      2233      5700  |       34.39509        35.43811    3.032468%     1.043020059 |     42.4      54.31     0.00%      0
+      2284      5829  |       34.39509        35.43611    3.026663%     1.041023297 |     43.4      50.99     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2336      5977  |       34.39509        35.43255    3.016293%     1.037456698 |     44.4      51.74     0.00%      0
+      2389      6136  |       34.39509        35.42903    3.006077%     1.033942988 |     45.5      52.05     0.00%      0
+      2443      6274  |       34.39509        35.42513    2.994734%     1.030041423 |     46.5      53.46     0.00%      0
+      2498      6439  |       34.39509        35.42235    2.986656%     1.027263077 |     47.5      54.19     0.00%      0
+      2550      6547  |       34.39509        35.41951    2.978394%     1.024421229 |     48.5      51.02     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2598      6691  |       34.39509        35.41654    2.969748%     1.021447635 |     49.5      47.51     0.00%      0
+      2651      6842  |       34.39509        35.41342    2.960682%     1.018329135 |     50.5      52.66     0.00%      0
+      2702      6955  |       34.39509        35.40988    2.950393%     1.014790455 |     51.5      50.94     0.00%      0
+      2754      7103  |       34.39509        35.40686    2.941619%     1.011772602 |     52.5      51.89     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     52.8      53.22     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     52.8     180.18     0.00%      0
+      2828        93  |       35.39687        35.40318    0.017837%  0.006313706682 |     53.8      62.17     0.00%      0
+      2882        39  |       35.39687        35.39959    0.007677%  0.002717445379 |     54.8      53.65     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.5      51.89     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.54 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.60% [avg time: 114.6 us, count: 2921]
+ - load_state:  0.01% [avg time:   1.9 us, count: 2921]
+ - bound:      98.64% [avg time:  18.8 ms, count: 2921]
+ - objective:   0.15% [avg time:  33.7 us, count: 2477]
+ - branch:      0.13% [avg time:  28.2 us, count: 2475]
+ - other:       0.47% [avg time:  89.5 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3570039 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      55.06     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.57     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.0      55.37     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.0      54.73     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       222       359  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      54.56     0.00%      0
+       277       444  |       34.39509        35.97374    4.589752%     1.578649371 |      5.1      54.29     0.00%      0
+       331       554  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.74     0.00%      0
+       383       674  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.82     0.00%      0
+       437       812  |       34.39509        35.86152    4.263475%     1.466426052 |      8.1      53.15     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       488       965  |       34.39509        35.80148    4.088942%     1.406395212 |      9.1      51.10     0.00%      0
+       544      1089  |       34.39509        35.77186    4.002819%     1.376773059 |     10.1      54.80     0.00%      0
+       596      1209  |       34.39509        35.74607    3.927835%     1.350982379 |     11.1      51.43     0.00%      0
+       646      1331  |       34.39509        35.73261    3.888700%     1.337521762 |     12.1      49.85     0.00%      0
+       696      1461  |       34.39509        35.72481    3.866010%     1.329717597 |     13.1      49.69     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       750      1623  |       34.39509        35.70959    3.821754%     1.314495723 |     14.1      52.95     0.00%      0
+       803      1782  |       34.39509        35.69569    3.781343%     1.300596362 |     15.2      52.90     0.00%      0
+       856      1941  |       34.39509        35.68179    3.740934%     1.286697725 |     16.2      52.76     0.00%      0
+       908      2097  |       34.39509        35.66133    3.681444%     1.266236113 |     17.2      51.52     0.00%      0
+       963      2262  |       34.39509        35.64043    3.620687%      1.24533859 |     18.2      54.17     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1018      2411  |       34.39509        35.61644    3.550947%      1.22135141 |     19.2      54.05     0.00%      0
+      1072      2573  |       34.39509        35.60489    3.517353%     1.209796687 |     20.2      53.31     0.00%      0
+      1125      2732  |       34.39509        35.59506    3.488776%     1.199967611 |     21.2      52.87     0.00%      0
+      1177      2884  |       34.39509        35.58236    3.451869%     1.187273472 |     22.2      51.93     0.00%      0
+      1230      3031  |       34.39509        35.56263    3.394484%     1.167535951 |     23.2      52.28     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1285      3188  |       34.39509        35.55025    3.358498%     1.155158436 |     24.2      54.15     0.00%      0
+      1338      3327  |       34.39509        35.54659    3.347864%     1.151500737 |     25.3      52.17     0.00%      0
+      1391      3470  |       34.39509        35.54009    3.328956%     1.144997417 |     26.3      52.41     0.00%      0
+      1444      3617  |       34.39509        35.53355    3.309961%     1.138463933 |     27.3      52.64     0.00%      0
+      1496      3757  |       34.39509        35.52286    3.278863%     1.127767813 |     28.3      51.88     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1546      3887  |       34.39509        35.51954    3.269206%     1.124446308 |     29.3      49.83     0.00%      0
+      1600      4049  |       34.39509        35.51315    3.250632%     1.118057702 |     30.3      53.76     0.00%      0
+      1651      4182  |       34.39509        35.50506    3.227113%     1.109968545 |     31.3      50.77     0.00%      0
+      1703      4294  |       34.39509        35.49833    3.207542%     1.103236987 |     32.3      51.18     0.00%      0
+      1755      4426  |       34.39509        35.49299    3.192020%     1.097898149 |     33.3      51.87     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1808      4585  |       34.39509        35.48838    3.178623%     1.093290218 |     34.3      52.27     0.00%      0
+      1860      4713  |       34.39509        35.48192    3.159852%     1.086833971 |     35.3      51.36     0.00%      0
+      1912      4817  |       34.39509        35.47683    3.145054%     1.081744264 |     36.4      51.15     0.00%      0
+      1964      4941  |       34.39509        35.47251    3.132487%     1.077421797 |     37.4      51.39     0.00%      0
+      2019      5106  |       34.39509        35.46463    3.109581%     1.069543293 |     38.4      54.69     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2073      5252  |       34.39509        35.45573    3.083710%     1.060644904 |     39.4      53.32     0.00%      0
+      2126      5379  |       34.39509        35.45091    3.069671%     1.055816132 |     40.4      52.10     0.00%      0
+      2179      5538  |       34.39509        35.44246    3.045108%     1.047367775 |     41.4      52.80     0.00%      0
+      2234      5703  |       34.39509        35.43811    3.032468%     1.043020059 |     42.4      54.31     0.00%      0
+      2286      5835  |       34.39509        35.43603    3.026414%      1.04093794 |     43.4      51.38     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2338      5983  |       34.39509        35.43248    3.016112%     1.037394505 |     44.4      51.90     0.00%      0
+      2391      6142  |       34.39509        35.42903    3.006077%     1.033942988 |     45.4      52.38     0.00%      0
+      2445      6280  |       34.39509        35.42513    2.994734%     1.030041412 |     46.5      53.05     0.00%      0
+      2500      6445  |       34.39509        35.42235    2.986656%     1.027263077 |     47.5      54.70     0.00%      0
+      2551      6550  |       34.39509        35.41951    2.978394%     1.024421229 |     48.5      50.86     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2599      6694  |       34.39509        35.41654    2.969748%     1.021447635 |     49.5      47.72     0.00%      0
+      2652      6845  |       34.39509        35.41342    2.960682%     1.018329135 |     50.5      52.23     0.00%      0
+      2703      6958  |       34.39509        35.40988    2.950393%     1.014790455 |     51.5      50.59     0.00%      0
+      2756      7109  |       34.39509        35.40686    2.941619%     1.011772602 |     52.5      52.28     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     52.7      53.22     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     52.7     180.60     0.00%      0
+      2828        93  |       35.39687        35.40318    0.017837%  0.006313706682 |     53.7      62.04     0.00%      0
+      2882        39  |       35.39687        35.39959    0.007677%  0.002717445379 |     54.7      53.68     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.5      52.14     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.49 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.61% [avg time: 115.9 us, count: 2921]
+ - load_state:  0.01% [avg time:   1.9 us, count: 2921]
+ - bound:      98.65% [avg time:  18.7 ms, count: 2921]
+ - objective:   0.15% [avg time:  32.7 us, count: 2477]
+ - branch:      0.12% [avg time:  27.8 us, count: 2475]
+ - other:       0.46% [avg time:  87.5 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(34.3951, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3570148 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       34.39509             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       34.39509         37.7881    9.864807%     3.393009349 |      0.0      55.41     0.00%      0
+        56        65  |       34.39509         36.7035    6.711464%     2.308414008 |      1.0      54.73     0.00%      0
+       112       181  |       34.39509        36.27227    5.457693%       1.8771783 |      2.0      55.34     0.00%      0
+       167       278  |       34.39509        36.17206    5.166352%     1.776971436 |      3.0      54.53     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       222       359  |       34.39509        36.10493    4.971178%     1.709841236 |      4.1      54.57     0.00%      0
+       277       444  |       34.39509        35.97374    4.589752%     1.578649371 |      5.1      54.49     0.00%      0
+       331       554  |       34.39509        35.93493    4.476923%      1.53984171 |      6.1      53.80     0.00%      0
+       383       674  |       34.39509        35.92377    4.444468%     1.528678875 |      7.1      51.98     0.00%      0
+       437       812  |       34.39509        35.86152    4.263475%     1.466426052 |      8.1      53.30     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       489       968  |       34.39509        35.80056    4.086260%     1.405472886 |      9.1      51.71     0.00%      0
+       545      1088  |       34.39509        35.77175    4.002493%     1.376660927 |     10.1      54.98     0.00%      0
+       597      1212  |       34.39509        35.74564    3.926575%     1.350549068 |     11.1      51.14     0.00%      0
+       647      1334  |       34.39509        35.73261    3.888700%     1.337521762 |     12.1      49.73     0.00%      0
+       697      1464  |       34.39509        35.72481    3.866010%     1.329717588 |     13.1      49.95     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       750      1623  |       34.39509        35.70959    3.821754%     1.314495723 |     14.1      52.58     0.00%      0
+       803      1782  |       34.39509        35.69569    3.781343%     1.300596362 |     15.2      52.08     0.00%      0
+       856      1941  |       34.39509        35.68179    3.740934%     1.286697725 |     16.2      52.65     0.00%      0
+       908      2097  |       34.39509        35.66133    3.681444%     1.266236113 |     17.2      51.61     0.00%      0
+       963      2262  |       34.39509        35.64043    3.620687%      1.24533859 |     18.2      54.07     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1018      2411  |       34.39509        35.61644    3.550947%      1.22135141 |     19.2      54.04     0.00%      0
+      1072      2573  |       34.39509        35.60489    3.517353%     1.209796687 |     20.2      53.26     0.00%      0
+      1125      2732  |       34.39509        35.59506    3.488776%     1.199967611 |     21.2      52.37     0.00%      0
+      1177      2884  |       34.39509        35.58236    3.451869%     1.187273472 |     22.2      51.89     0.00%      0
+      1230      3031  |       34.39509        35.56263    3.394484%     1.167535951 |     23.2      52.30     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1285      3188  |       34.39509        35.55025    3.358498%     1.155158436 |     24.3      54.27     0.00%      0
+      1338      3327  |       34.39509        35.54659    3.347864%     1.151500737 |     25.3      52.33     0.00%      0
+      1391      3470  |       34.39509        35.54009    3.328956%     1.144997417 |     26.3      52.41     0.00%      0
+      1444      3617  |       34.39509        35.53355    3.309961%     1.138463933 |     27.3      52.80     0.00%      0
+      1496      3757  |       34.39509        35.52286    3.278863%     1.127767813 |     28.3      51.27     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1546      3887  |       34.39509        35.51954    3.269206%     1.124446308 |     29.3      49.98     0.00%      0
+      1601      4052  |       34.39509        35.51315    3.250632%      1.11805769 |     30.3      53.63     0.00%      0
+      1652      4185  |       34.39509        35.50506    3.227113%     1.109968545 |     31.3      50.23     0.00%      0
+      1703      4294  |       34.39509        35.49833    3.207542%     1.103236987 |     32.3      50.69     0.00%      0
+      1756      4429  |       34.39509        35.49299    3.192020%     1.097898149 |     33.4      52.38     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      1809      4588  |       34.39509        35.48722    3.175255%      1.09213191 |     34.4      52.47     0.00%      0
+      1861      4712  |       34.39509        35.48155    3.158776%      1.08646381 |     35.4      51.45     0.00%      0
+      1913      4820  |       34.39509        35.47652    3.144151%     1.081433385 |     36.4      51.17     0.00%      0
+      1965      4944  |       34.39509        35.47244    3.132292%     1.077354677 |     37.4      51.30     0.00%      0
+      2021      5112  |       34.39509        35.46326    3.105603%     1.068175037 |     38.4      55.30     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2075      5258  |       34.39509        35.45573    3.083710%     1.060644904 |     39.4      53.59     0.00%      0
+      2127      5382  |       34.39509        35.45091    3.069671%     1.055816132 |     40.4      51.36     0.00%      0
+      2180      5541  |       34.39509        35.44246    3.045108%     1.047367775 |     41.4      52.72     0.00%      0
+      2235      5706  |       34.39509        35.43811    3.032468%     1.043020059 |     42.5      54.30     0.00%      0
+      2287      5838  |       34.39509        35.43603    3.026414%      1.04093794 |     43.5      51.54     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2340      5989  |       34.39509        35.43248    3.016112%     1.037394505 |     44.5      52.32     0.00%      0
+      2393      6148  |       34.39509        35.42873    3.005203%     1.033642215 |     45.5      52.56     0.00%      0
+      2447      6286  |       34.39509        35.42513    2.994734%     1.030041412 |     46.5      53.35     0.00%      0
+      2502      6451  |       34.39509        35.42175    2.984913%     1.026663449 |     47.5      54.60     0.00%      0
+      2553      6556  |       34.39509        35.41951    2.978394%     1.024421228 |     48.5      51.12     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+      2605      6712  |       34.39509        35.41584    2.967720%     1.020749853 |     49.5      51.94     0.00%      0
+      2658      6859  |       34.39509        35.41279    2.958863%     1.017703687 |     50.5      52.39     0.00%      0
+      2709      6976  |       34.39509        35.40978    2.950109%     1.014692779 |     51.5      51.02     0.00%      0
+      2762      7127  |       34.39509        35.40612    2.939476%     1.011035301 |     52.5      52.48     0.00%      0
+*     2766      2299  |       35.12619        35.40609    0.796846%    0.2799015138 |     52.6      55.48     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+*     2767       154  |       35.39687        35.40609    0.026042%  0.009218225255 |     52.6     183.01     0.00%      0
+      2828        93  |       35.39687        35.40318    0.017837%  0.006313706682 |     53.6      62.23     0.00%      0
+      2882        39  |       35.39687        35.39959    0.007677%  0.002717445379 |     54.6      53.81     0.00%      0
+      2921         0  |       35.39687        35.39687    0.000000%               0 |     55.4      52.10     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 35.39687
+ - bound: 35.39687
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 2921
+ - wall_time: 55.38 s
+ - best_node: Node(objective=35.39687)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 2921 (proc rank=0)
+ - max: 2921 (proc rank=0)
+Average Worker Timing:
+ - queue:       0.65% [avg time: 122.7 us, count: 2921]
+ - load_state:  0.01% [avg time:   2.1 us, count: 2921]
+ - bound:      98.60% [avg time:  18.7 ms, count: 2921]
+ - objective:   0.14% [avg time:  32.0 us, count: 2477]
+ - branch:      0.12% [avg time:  27.2 us, count: 2475]
+ - other:       0.48% [avg time:  90.1 us, count: 2921]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576261 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     317.01     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     330.10     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1286.84     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     437.70     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 396.22 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.42% [avg time:  67.9 us, count: 141]
+ - load_state:  0.06% [avg time:   1.8 us, count: 141]
+ - bound:      94.08% [avg time:   2.6 ms, count: 141]
+ - objective:   0.59% [avg time:  49.8 us, count:  47]
+ - branch:      0.34% [avg time:  29.7 us, count:  45]
+ - other:       2.52% [avg time:  70.7 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576273 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     318.38     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     335.59     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1279.06     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     443.08     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 389.89 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.35% [avg time:  65.0 us, count: 141]
+ - load_state:  0.07% [avg time:   2.0 us, count: 141]
+ - bound:      94.10% [avg time:   2.6 ms, count: 141]
+ - objective:   0.60% [avg time:  50.2 us, count:  47]
+ - branch:      0.34% [avg time:  29.2 us, count:  45]
+ - other:       2.53% [avg time:  69.9 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576307 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     312.08     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     330.99     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1293.01     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     440.86     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 394.53 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.35% [avg time:  65.8 us, count: 141]
+ - load_state:  0.07% [avg time:   1.9 us, count: 141]
+ - bound:      94.10% [avg time:   2.6 ms, count: 141]
+ - objective:   0.60% [avg time:  50.7 us, count:  47]
+ - branch:      0.33% [avg time:  29.2 us, count:  45]
+ - other:       2.54% [avg time:  71.2 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576396 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     317.15     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     327.90     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1279.49     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     434.29     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 399.02 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.41% [avg time:  68.2 us, count: 141]
+ - load_state:  0.06% [avg time:   1.8 us, count: 141]
+ - bound:      94.03% [avg time:   2.7 ms, count: 141]
+ - objective:   0.60% [avg time:  50.5 us, count:  47]
+ - branch:      0.34% [avg time:  30.4 us, count:  45]
+ - other:       2.56% [avg time:  72.5 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576410 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     312.17     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     327.77     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1265.46     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     316.02     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 425.26 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       7.08% [avg time: 213.7 us, count: 141]
+ - load_state:  0.08% [avg time:   2.4 us, count: 141]
+ - bound:      89.54% [avg time:   2.7 ms, count: 141]
+ - objective:   0.57% [avg time:  51.1 us, count:  47]
+ - branch:      0.30% [avg time:  28.1 us, count:  45]
+ - other:       2.43% [avg time:  73.4 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576421 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     320.05     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     333.09     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1290.90     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     441.43     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 392.71 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.42% [avg time:  67.3 us, count: 141]
+ - load_state:  0.08% [avg time:   2.2 us, count: 141]
+ - bound:      94.01% [avg time:   2.6 ms, count: 141]
+ - objective:   0.62% [avg time:  51.6 us, count:  47]
+ - branch:      0.33% [avg time:  29.1 us, count:  45]
+ - other:       2.54% [avg time:  70.8 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576439 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     316.60     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     327.53     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1268.04     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     433.26     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 399.58 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.29% [avg time:  64.9 us, count: 141]
+ - load_state:  0.07% [avg time:   1.9 us, count: 141]
+ - bound:      94.24% [avg time:   2.7 ms, count: 141]
+ - objective:   0.61% [avg time:  52.0 us, count:  47]
+ - branch:      0.32% [avg time:  28.6 us, count:  45]
+ - other:       2.47% [avg time:  70.1 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576770 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     316.53     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     334.22     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1280.20     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     439.81     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 391.74 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.42% [avg time:  67.2 us, count: 141]
+ - load_state:  0.07% [avg time:   1.9 us, count: 141]
+ - bound:      93.97% [avg time:   2.6 ms, count: 141]
+ - objective:   0.59% [avg time:  49.4 us, count:  47]
+ - branch:      0.33% [avg time:  28.8 us, count:  45]
+ - other:       2.62% [avg time:  72.8 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576807 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     315.50     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     328.30     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1245.78     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     322.30     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 423.23 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.23% [avg time:  67.0 us, count: 141]
+ - load_state:  0.06% [avg time:   1.9 us, count: 141]
+ - bound:      94.32% [avg time:   2.8 ms, count: 141]
+ - objective:   0.56% [avg time:  50.4 us, count:  47]
+ - branch:      0.31% [avg time:  29.6 us, count:  45]
+ - other:       2.51% [avg time:  75.4 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576823 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     320.62     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     325.00     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1223.47     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     388.72     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 410.67 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.38% [avg time:  69.4 us, count: 141]
+ - load_state:  0.07% [avg time:   2.2 us, count: 141]
+ - bound:      94.04% [avg time:   2.7 ms, count: 141]
+ - objective:   0.63% [avg time:  55.3 us, count:  47]
+ - branch:      0.35% [avg time:  31.6 us, count:  45]
+ - other:       2.52% [avg time:  73.5 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576911 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     316.79     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     317.17     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1260.00     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.5     249.36     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 462.80 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.16% [avg time:  71.0 us, count: 141]
+ - load_state:  0.07% [avg time:   2.4 us, count: 141]
+ - bound:      94.50% [avg time:   3.1 ms, count: 141]
+ - objective:   0.54% [avg time:  52.8 us, count:  47]
+ - branch:      0.33% [avg time:  34.1 us, count:  45]
+ - other:       2.39% [avg time:  78.6 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576955 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     307.57     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     325.94     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1290.40     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     432.47     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 400.91 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.39% [avg time:  67.9 us, count: 141]
+ - load_state:  0.06% [avg time:   1.7 us, count: 141]
+ - bound:      94.07% [avg time:   2.7 ms, count: 141]
+ - objective:   0.59% [avg time:  50.2 us, count:  47]
+ - branch:      0.35% [avg time:  30.8 us, count:  45]
+ - other:       2.55% [avg time:  72.5 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576967 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     318.79     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     333.26     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1291.10     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     441.80     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 392.43 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.42% [avg time:  67.4 us, count: 141]
+ - load_state:  0.07% [avg time:   1.9 us, count: 141]
+ - bound:      94.05% [avg time:   2.6 ms, count: 141]
+ - objective:   0.58% [avg time:  48.4 us, count:  47]
+ - branch:      0.33% [avg time:  29.0 us, count:  45]
+ - other:       2.55% [avg time:  70.9 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3576975 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     315.43     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     326.66     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1287.64     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     435.76     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 400.00 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.37% [avg time:  67.1 us, count: 141]
+ - load_state:  0.07% [avg time:   1.9 us, count: 141]
+ - bound:      94.09% [avg time:   2.7 ms, count: 141]
+ - objective:   0.58% [avg time:  49.7 us, count:  47]
+ - branch:      0.33% [avg time:  29.3 us, count:  45]
+ - other:       2.56% [avg time:  72.6 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634140 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     324.26     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     334.96     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1287.85     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     439.72     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 391.34 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.28% [avg time:  63.4 us, count: 141]
+ - load_state:  0.06% [avg time:   1.8 us, count: 141]
+ - bound:      94.29% [avg time:   2.6 ms, count: 141]
+ - objective:   0.58% [avg time:  48.5 us, count:  47]
+ - branch:      0.33% [avg time:  28.4 us, count:  45]
+ - other:       2.45% [avg time:  68.1 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634164 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     319.40     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     333.12     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1292.74     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     439.09     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 393.03 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.30% [avg time:  64.0 us, count: 141]
+ - load_state:  0.07% [avg time:   2.0 us, count: 141]
+ - bound:      94.22% [avg time:   2.6 ms, count: 141]
+ - objective:   0.59% [avg time:  49.2 us, count:  47]
+ - branch:      0.34% [avg time:  29.8 us, count:  45]
+ - other:       2.49% [avg time:  69.3 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634188 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     301.06     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     319.16     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1242.25     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     424.63     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 409.43 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.62% [avg time:  75.9 us, count: 141]
+ - load_state:  0.07% [avg time:   2.1 us, count: 141]
+ - bound:      93.59% [avg time:   2.7 ms, count: 141]
+ - objective:   0.60% [avg time:  51.9 us, count:  47]
+ - branch:      0.36% [avg time:  32.3 us, count:  45]
+ - other:       2.77% [avg time:  80.4 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634278 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     322.69     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     333.26     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1299.85     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     439.84     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 392.87 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.38% [avg time:  66.4 us, count: 141]
+ - load_state:  0.06% [avg time:   1.8 us, count: 141]
+ - bound:      94.12% [avg time:   2.6 ms, count: 141]
+ - objective:   0.60% [avg time:  50.1 us, count:  47]
+ - branch:      0.35% [avg time:  30.7 us, count:  45]
+ - other:       2.48% [avg time:  69.0 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634291 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     316.12     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     327.44     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1264.70     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     423.89     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 401.31 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.36% [avg time:  67.3 us, count: 141]
+ - load_state:  0.07% [avg time:   2.0 us, count: 141]
+ - bound:      94.11% [avg time:   2.7 ms, count: 141]
+ - objective:   0.59% [avg time:  50.4 us, count:  47]
+ - branch:      0.33% [avg time:  29.9 us, count:  45]
+ - other:       2.53% [avg time:  71.9 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634311 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     313.66     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.3     320.92     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.3    1272.10     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     429.43     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 407.10 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.52% [avg time:  72.7 us, count: 141]
+ - load_state:  0.07% [avg time:   2.0 us, count: 141]
+ - bound:      93.92% [avg time:   2.7 ms, count: 141]
+ - objective:   0.59% [avg time:  50.7 us, count:  47]
+ - branch:      0.34% [avg time:  31.0 us, count:  45]
+ - other:       2.56% [avg time:  73.9 us, count: 141]
+
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634325 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     313.45     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.4     302.17     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.4    1231.83     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     406.28     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 432.80 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.38% [avg time:  72.9 us, count: 141]
+ - load_state:  0.07% [avg time:   2.3 us, count: 141]
+ - bound:      93.96% [avg time:   2.9 ms, count: 141]
+ - objective:   0.59% [avg time:  54.5 us, count:  47]
+ - branch:      0.34% [avg time:  32.3 us, count:  45]
+ - other:       2.66% [avg time:  81.7 us, count: 141]
+

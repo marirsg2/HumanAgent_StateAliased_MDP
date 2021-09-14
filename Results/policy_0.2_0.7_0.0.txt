@@ -1,0 +1,286 @@
+PARAMETERS
+REWARD_NOISE_RANGE = 0.0
+NUM_STATES_PER_ROW = 3
+RANDOM_SEED = 0
+WEIGHT_FOR_TRUE_POLICY_VALUE = 0.0
+COMPLEXITY_INFLUENCER_SCALER_RANGE = [0.0]
+INCLUDE_TRUE_POLICY_IN_SEARCH = False
+INCLUDE_EXPECTED_CONFUSED_POLICY_IN_SEARCH = True
+ENABLE_1HOT_POLICY_REGULARIZATION = 0
+DISCOUNT_FACTOR = 0.7
+PROB_OF_RANDOM_ACTION = 0.2
+===========================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+complexity_weight = 0
+NOOP_COST = -0.1
+===========================================================
+ trial_idx = 0
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.305767297744751
+===========================================================
+ trial_idx = 1
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.4090549945831299
+===========================================================
+ trial_idx = 2
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.3950634002685547
+===========================================================
+ trial_idx = 3
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.30292391777038574
+===========================================================
+ trial_idx = 4
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.275036096572876
+===========================================================
+ trial_idx = 5
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.35826992988586426
+===========================================================
+ trial_idx = 6
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.33006858825683594
+===========================================================
+ trial_idx = 7
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.3099234104156494
+===========================================================
+ trial_idx = 8
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.2673835754394531
+===========================================================
+ trial_idx = 9
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.3289060592651367
+===========================================================
+ trial_idx = 10
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.2870922088623047
+===========================================================
+ trial_idx = 11
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.30846452713012695
+===========================================================
+ trial_idx = 12
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.4556770324707
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.436676025390625
+===========================================================
+ trial_idx = 13
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.2171475887298584
+===========================================================
+ trial_idx = 14
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.3482966423034668
+===========================================================
+ trial_idx = 15
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.4556770324707
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.3068995475769043
+===========================================================
+ trial_idx = 16
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.26358604431152344
+===========================================================
+ trial_idx = 17
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.35391664505004883
+===========================================================
+ trial_idx = 18
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.25844264030456543
+===========================================================
+ trial_idx = 19
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.4556770324707
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.35013246536254883
+===========================================================
+ trial_idx = 20
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.26378679275512695
+===========================================================
+ trial_idx = 21
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.3950328826904297
+===========================================================
+ trial_idx = 22
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.30298876762390137
+===========================================================
+ trial_idx = 23
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.4533064365386963
+===========================================================
+ trial_idx = 24
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.30849552154541016
+===========================================================
+ trial_idx = 25
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.358381986618042
+===========================================================
+ trial_idx = 26
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.39509129524230957
+===========================================================
+ trial_idx = 27
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.312880277633667
+===========================================================
+ trial_idx = 28
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.490981101989746
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.418829825748915
+TRUE CONFUSION SCORE = 0.049302216373460314
+Time taken (seconds) = 0.3037405014038086
+===========================================================
+ trial_idx = 29
+===========================================================
+NOTE THE INVALID ACTION PENALTY IS REMOVED for the value computation
+weighted value = 6.504042625427246
+1-hot policy true_value = 61.45567321777344
+1-hot policy expected_value = 58.53638226526348
+TRUE CONFUSION SCORE = 0.038165445537308676
+Time taken (seconds) = 0.3022146224975586
+===========================================================

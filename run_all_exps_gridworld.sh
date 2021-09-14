@@ -1,0 +1,17 @@
+
+#This is for gridworld
+ ./run_experiments.sh 0.05 0.3 0
+ ./run_experiments.sh 0.05 0.5 0
+# ./run_experiments.sh 0.05 0.7 0 #redundant
+ ./run_experiments.sh 0.05 0.9 0
+
+# ./run_experiments.sh 0.05 0.7 0 #redundant see varying gamma case
+ ./run_experiments.sh 0.05 0.7 1
+ ./run_experiments.sh 0.05 0.7 2
+ ./run_experiments.sh 0.05 0.7 4
+
+ ./run_experiments.sh 0.05 0.7 0 #redundant see varying gamma case
+ ./run_experiments.sh 0.10 0.7 0
+ ./run_experiments.sh 0.15 0.7 0
+ ./run_experiments.sh 0.20 0.7 0
+

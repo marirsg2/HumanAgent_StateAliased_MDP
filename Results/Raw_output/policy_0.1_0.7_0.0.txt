@@ -1,0 +1,1239 @@
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_HillClimbing_policy_iteration_runner.py
+PARAMETERS
+REWARD_NOISE_RANGE =  0.0
+NUM_STATES_PER_ROW 3
+WEIGHT_FOR_TRUE_POLICY_VALUE 0.0
+INCLUDE_TRUE_POLICY_IN_SEARCH False
+INCLUDE_EXPECTED_CONFUSED_POLICY_IN_SEARCH True
+ENABLE_1HOT_POLICY_REGULARIZATION 0
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+complexity_weight 0
+no-op reward(cost) -0.1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+trial_idx =  0
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.354172945022583
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3557443618774414
+==========
+trial_idx =  1
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2678999900817871
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2693042755126953
+==========
+trial_idx =  2
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2203233242034912
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.22172021865844727
+==========
+trial_idx =  3
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.307293176651001
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.308718204498291
+==========
+trial_idx =  4
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.31029200553894043
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3117337226867676
+==========
+trial_idx =  5
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.26087355613708496
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.2622807025909424
+==========
+trial_idx =  6
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.3031022548675537
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3045229911804199
+==========
+trial_idx =  7
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.3488626480102539
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3503713607788086
+==========
+trial_idx =  8
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.26271629333496094
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.2641134262084961
+==========
+trial_idx =  9
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.37108659744262695
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.37261414527893066
+==========
+trial_idx =  10
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2822103500366211
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2838289737701416
+==========
+trial_idx =  11
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.27388954162597656
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2753570079803467
+==========
+trial_idx =  12
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.3503115177154541
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3517279624938965
+==========
+trial_idx =  13
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.30578112602233887
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3072197437286377
+==========
+trial_idx =  14
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.27381420135498047
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2752518653869629
+==========
+trial_idx =  15
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.3126070499420166
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3140246868133545
+==========
+trial_idx =  16
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.353043794631958
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.35453033447265625
+==========
+trial_idx =  17
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.2170090675354004
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.21843361854553223
+==========
+trial_idx =  18
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.30449342727661133
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.30590248107910156
+==========
+trial_idx =  19
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2165389060974121
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.21796965599060059
+==========
+trial_idx =  20
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.346569299697876
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3479788303375244
+==========
+trial_idx =  21
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.34746623039245605
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.34891271591186523
+==========
+trial_idx =  22
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.26052141189575195
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.26193857192993164
+==========
+trial_idx =  23
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3466956615447998
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3481299877166748
+==========
+trial_idx =  24
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.30321264266967773
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.30460047721862793
+==========
+trial_idx =  25
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.30362534523010254
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4482, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.0341, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3050415515899658
+==========
+trial_idx =  26
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3488132953643799
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.35022902488708496
+==========
+trial_idx =  27
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3454139232635498
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3468482494354248
+==========
+trial_idx =  28
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2612650394439697
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.262692928314209
+==========
+trial_idx =  29
+__file__ =  /home/local/ASUAD/sgopal28/workspace/AAAI20222_MDPminimizForHumans/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.34969449043273926
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4601, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.9357)
+1-hot policy, expected_value =  tensor(58.1405, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3511228561401367
+==========
+ The best value from hill climbing was =  tensor(58.1405, dtype=torch.float64)
+-------------BRANCH AND BOUND ---------------------------------
+
+Using non-default solver options:
+ - best_objective: tensor(57.1405, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3365787 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |        57.1405             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |        57.1405        60.93746    6.644968%     3.796967502 |      0.0     314.58     0.00%      0
+*      107        18  |       58.14201        58.32987    0.323093%    0.1878528546 |      0.3     317.69     0.00%      0
+       125         0  |       58.14201        58.14201    0.000000%               0 |      0.4     844.14     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 58.14201
+ - bound: 58.14201
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 125
+ - wall_time: 356.92 ms
+ - best_node: Node(objective=58.14201)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 125 (proc rank=0)
+ - max: 125 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.58% [avg time:  73.7 us, count: 125]
+ - load_state:  0.07% [avg time:   2.1 us, count: 125]
+ - bound:      93.64% [avg time:   2.7 ms, count: 125]
+ - objective:   0.53% [avg time:  41.3 us, count:  46]
+ - branch:      0.37% [avg time:  29.5 us, count:  45]
+ - other:       2.80% [avg time:  79.9 us, count: 125]
+
+---BNB takes 0.3575582504272461 seconds ---
+results from BnB with HASA BnB controller
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+Expected Value with HASA BnB Controller = tensor(58.1405, dtype=torch.float64)
+time taken for all settings =  9.523470163345337

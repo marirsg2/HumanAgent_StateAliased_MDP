@@ -1,0 +1,1243 @@
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_HillClimbing_policy_iteration_runner.py
+PARAMETERS
+REWARD_NOISE_RANGE =  0.0
+NUM_STATES_PER_ROW 3
+WEIGHT_FOR_TRUE_POLICY_VALUE 0.0
+INCLUDE_TRUE_POLICY_IN_SEARCH False
+INCLUDE_EXPECTED_CONFUSED_POLICY_IN_SEARCH True
+ENABLE_1HOT_POLICY_REGULARIZATION 0
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+complexity_weight 0
+no-op reward(cost) -0.1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+trial_idx =  0
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.2636880874633789
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2652454376220703
+==========
+trial_idx =  1
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2634561061859131
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2648768424987793
+==========
+trial_idx =  2
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3518998622894287
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3534853458404541
+==========
+trial_idx =  3
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.2636575698852539
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.2652437686920166
+==========
+trial_idx =  4
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.3050422668457031
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3065638542175293
+==========
+trial_idx =  5
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3049182891845703
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3064615726470947
+==========
+trial_idx =  6
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.34771060943603516
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.34920573234558105
+==========
+trial_idx =  7
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.21773552894592285
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.21921896934509277
+==========
+trial_idx =  8
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.30443787574768066
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3059861660003662
+==========
+trial_idx =  9
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+Number of full state set iterations = 9
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.39324259757995605
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3946719169616699
+==========
+trial_idx =  10
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2611062526702881
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2625250816345215
+==========
+trial_idx =  11
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.30553483963012695
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3070216178894043
+==========
+trial_idx =  12
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.26184535026550293
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.26334118843078613
+==========
+trial_idx =  13
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.30530595779418945
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3068103790283203
+==========
+trial_idx =  14
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+Number of full state set iterations = 9
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.39252734184265137
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3940305709838867
+==========
+trial_idx =  15
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.30471277236938477
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.30607151985168457
+==========
+trial_idx =  16
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.34885549545288086
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.35037660598754883
+==========
+trial_idx =  17
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+Number of full state set iterations = 9
+Number of full state set iterations = 10
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.43636608123779297
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.43790388107299805
+==========
+trial_idx =  18
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.21814942359924316
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2196502685546875
+==========
+trial_idx =  19
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.221405029296875
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.22287988662719727
+==========
+trial_idx =  20
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2690443992614746
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.27069592475891113
+==========
+trial_idx =  21
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.31342005729675293
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.3150045871734619
+==========
+trial_idx =  22
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2643702030181885
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2660825252532959
+==========
+trial_idx =  23
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3552126884460449
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.35677242279052734
+==========
+trial_idx =  24
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.30855774879455566
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.31022024154663086
+==========
+trial_idx =  25
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.30803728103637695
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3095996379852295
+==========
+trial_idx =  26
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.355013370513916
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.35654234886169434
+==========
+trial_idx =  27
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.354597806930542
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4202, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.7814, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0493, dtype=torch.float64)
+Time taken (seconds) =  0.3561837673187256
+==========
+trial_idx =  28
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+policy matrix tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+Time taken (seconds) =  0.2669498920440674
+true_policy_matrix
+tensor([[0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 0., 1., 0.]])
+[["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_DOWN', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.2684791088104248
+==========
+trial_idx =  29
+__file__ =  /home/local/ASUAD/sgopal28/workspace/HASA_PolicyComputation/src/SAMDP_policy_iteration_STANDARD_value_computation.py
+Number of full state set iterations = 1
+Number of full state set iterations = 2
+Number of full state set iterations = 3
+Number of full state set iterations = 4
+Number of full state set iterations = 5
+Number of full state set iterations = 6
+Number of full state set iterations = 7
+Number of full state set iterations = 8
+policy matrix tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+Time taken (seconds) =  0.3511357307434082
+true_policy_matrix
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+===============
+weighted value =  tensor(6.4314, dtype=torch.float64)
+1-hot policy, true_value =  tensor(60.6134)
+1-hot policy, expected_value =  tensor(57.8830, dtype=torch.float64)
+TRUE CONFUSION SCORE =  tensor(0.0382, dtype=torch.float64)
+Time taken (seconds) =  0.35271525382995605
+==========
+ The best value from hill climbing was =  tensor(57.8830, dtype=torch.float64)
+-------------BRANCH AND BOUND ---------------------------------
+
+Using non-default solver options:
+ - best_objective: tensor(56.8830, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3634325 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       56.88299             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       56.88299        60.61355    6.558311%     3.730563394 |      0.0     313.45     0.00%      0
+*      107        34  |       57.88445        58.07108    0.322419%       0.1866303 |      0.4     302.17     0.00%      0
+*      112        29  |       57.88445        58.07108    0.322412%    0.1866264853 |      0.4    1231.83     0.00%      0
+       141         0  |       57.88445        57.88445    0.000000%               0 |      0.4     406.28     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 57.88445
+ - bound: 57.88445
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 141
+ - wall_time: 432.80 ms
+ - best_node: Node(objective=57.88445)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 141 (proc rank=0)
+ - max: 141 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.38% [avg time:  72.9 us, count: 141]
+ - load_state:  0.07% [avg time:   2.3 us, count: 141]
+ - bound:      93.96% [avg time:   2.9 ms, count: 141]
+ - objective:   0.59% [avg time:  54.5 us, count:  47]
+ - branch:      0.34% [avg time:  32.3 us, count:  45]
+ - other:       2.66% [avg time:  81.7 us, count: 141]
+
+---BNB takes 0.43340182304382324 seconds ---
+results from BnB with HASA BnB controller
+tensor([[0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 0., 1., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.],
+        [0., 1., 0., 0.]])
+[["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)" "('ACTION_DOWN', 1.0)"]
+ ["('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)" "('ACTION_RIGHT', 1.0)"]]
+Expected Value with HASA BnB Controller = tensor(57.8830, dtype=torch.float64)
+time taken for all settings =  9.709978342056274

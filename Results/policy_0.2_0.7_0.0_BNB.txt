@@ -1,0 +1,43 @@
+
+Using non-default solver options:
+ - best_objective: tensor(57.5364, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3365812 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       57.53638             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       57.53638        61.45765    6.815280%     3.921265776 |      0.0     275.78     0.00%      0
+*      107        34  |       58.42256        58.72633    0.519946%    0.3037658678 |      0.4     292.10     0.00%      0
+*      116         9  |       58.53799        58.72607    0.321292%    0.1880779929 |      0.4     924.58     0.00%      0
+       125         0  |       58.53799        58.53799    0.000000%               0 |      0.4     443.77     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 58.53799
+ - bound: 58.53799
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 125
+ - wall_time: 395.69 ms
+ - best_node: Node(objective=58.53799)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 125 (proc rank=0)
+ - max: 125 (proc rank=0)
+Average Worker Timing:
+ - queue:       2.43% [avg time:  77.0 us, count: 125]
+ - load_state:  0.06% [avg time:   2.0 us, count: 125]
+ - bound:      93.77% [avg time:   3.0 ms, count: 125]
+ - objective:   0.74% [avg time:  62.7 us, count:  47]
+ - branch:      0.35% [avg time:  30.4 us, count:  45]
+ - other:       2.65% [avg time:  83.8 us, count: 125]
+

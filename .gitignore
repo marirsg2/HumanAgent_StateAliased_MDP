@@ -1,0 +1,6 @@
+
+.idea/
+
+domains/amazon_domain/__pycache__/
+
+*.pyc

@@ -1,0 +1,45 @@
+
+Using non-default solver options:
+ - best_objective: tensor(30.5894, dtype=torch.float64) (default: -inf)
+
+Starting branch & bound solve:
+ - dispatcher pid: 3365646 (en4129772l)
+ - worker processes: 1
+--------------------------------------------------------------------------------------------------------------------------
+         Nodes        |                      Objective Bounds                       |              Work              
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+         0         1  |       30.58944             inf         inf%             inf |      0.0       0.00     0.00%      0
+         1         4  |       30.58944        34.30792   12.156089%     3.718480002 |      0.0     371.44     0.00%      0
+*      106        75  |       31.22335        31.70388    1.539019%    0.4805331938 |      0.2     458.43     0.00%      0
+*      107        18  |       31.58319        31.70388    0.382161%    0.1206985228 |      0.2     743.96     0.00%      0
+*      108        17  |       31.59176        31.70388    0.354906%     0.112121176 |      0.2     853.69     0.00%      0
+      Expl    Unexpl  |      Incumbent           Bound    Rel. Gap         Abs. Gap | Time (s)  Nodes/Sec Imbalance   Idle
+       125         0  |       31.59176        31.59176    0.000000%               0 |      0.2    1125.23     0.00%      0
+--------------------------------------------------------------------------------------------------------------------------
+
+Absolute optimality tolerance met
+Optimal solution found!
+
+solver results:
+ - solution_status: optimal
+ - termination_condition: optimality
+ - objective: 31.59176
+ - bound: 31.59176
+ - absolute_gap: 0
+ - relative_gap: 0
+ - nodes: 125
+ - wall_time: 247.13 ms
+ - best_node: Node(objective=31.59176)
+
+Number of Workers:        1
+Load Imbalance:       0.00%
+ - min: 125 (proc rank=0)
+ - max: 125 (proc rank=0)
+Average Worker Timing:
+ - queue:       4.19% [avg time:  82.8 us, count: 125]
+ - load_state:  0.11% [avg time:   2.1 us, count: 125]
+ - bound:      89.61% [avg time:   1.8 ms, count: 125]
+ - objective:   1.28% [avg time:  54.7 us, count:  58]
+ - branch:      0.67% [avg time:  30.3 us, count:  55]
+ - other:       4.14% [avg time:  81.9 us, count: 125]
+
